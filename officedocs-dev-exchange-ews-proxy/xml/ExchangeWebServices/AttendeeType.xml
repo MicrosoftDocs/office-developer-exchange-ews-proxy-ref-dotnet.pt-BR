@@ -1,0 +1,173 @@
+<Type Name="AttendeeType" FullName="ExchangeWebServices.AttendeeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="49ecebf12ca7f6c9987f6ce84827b9dbf741f01c" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20601312" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AttendeeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AttendeeType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AttendeeType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AttendeeType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AttendeeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.AttendeeType" /> classe representa participantes e recursos para uma reunião.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AttendeeType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AttendeeType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AttendeeType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.AttendeeType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.AttendeeType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastResponseTime">
+      <MemberSignature Language="C#" Value="public DateTime LastResponseTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastResponseTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttendeeType.LastResponseTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastResponseTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastResponseTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTime" /> propriedade obtém ou define a data e hora em que as informações mais recentes foi recebida de resposta.</summary>
+        <value>O <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTime" /> propriedade retornará um valor de data/hora que indica a data e hora em que as informações mais recentes foi recebida de resposta.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastResponseTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool LastResponseTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LastResponseTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttendeeType.LastResponseTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastResponseTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LastResponseTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTimeSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTime" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTime" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTimeSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.AttendeeType.LastResponseTime" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttendeeType.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ Mailbox { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.AttendeeType.Mailbox" /> propriedade obtém ou define um endereço de email totalmente resolvido.</summary>
+        <value>O <see cref="P:ExchangeWebServices.AttendeeType.Mailbox" /> propriedade retornará uma <see cref="T:ExchangeWebServices.EmailAddressType" /> objeto que contém um endereço de email totalmente resolvido.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseTypeType ResponseType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ResponseTypeType ResponseType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttendeeType.ResponseType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseType As ResponseTypeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ResponseTypeType ResponseType { ExchangeWebServices::ResponseTypeType get(); void set(ExchangeWebServices::ResponseTypeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseTypeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.AttendeeType.ResponseType" /> propriedade obtém o tipo de resposta recebida para uma reunião. Esta propriedade é somente leitura.</summary>
+        <value>O <see cref="P:ExchangeWebServices.AttendeeType.ResponseType" /> propriedade retorna uma do <see cref="T:ExchangeWebServices.ResponseTypeType" /> valores de enumeração que indicam o tipo de resposta recebida para uma reunião.</value>
+        <remarks>
+          <para>O <see cref="P:ExchangeWebServices.AttendeeType.ResponseType" /> propriedade só é relevante para o item de calendário do organizador da reunião.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseTypeSpecified">
+      <MemberSignature Language="C#" Value="public bool ResponseTypeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ResponseTypeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttendeeType.ResponseTypeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseTypeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ResponseTypeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.AttendeeType.ResponseTypeSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.AttendeeType.ResponseType" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.AttendeeType.ResponseType" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.AttendeeType.ResponseTypeSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.AttendeeType.ResponseType" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

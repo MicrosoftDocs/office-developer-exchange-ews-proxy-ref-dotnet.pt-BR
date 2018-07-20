@@ -1,0 +1,278 @@
+<Type Name="PostItemType" FullName="ExchangeWebServices.PostItemType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="54225ca91293a67d5aa163d0bc6abc503c80c504" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20601651" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class PostItemType : ExchangeWebServices.ItemType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PostItemType extends ExchangeWebServices.ItemType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PostItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PostItemType&#xA;Inherits ItemType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PostItemType : ExchangeWebServices::ItemType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ItemType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.PostItemType" /> classe representa um item de postagem em um repositório do Exchange. Este elemento foi introduzido no Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PostItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.PostItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PostItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.PostItemType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.PostItemType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationIndex">
+      <MemberSignature Language="C#" Value="public byte[] ConversationIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] ConversationIndex" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PostItemType.ConversationIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConversationIndex As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ ConversationIndex { cli::array &lt;System::Byte&gt; ^ get(); void set(cli::array &lt;System::Byte&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(DataType="base64Binary")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.PostItemType.ConversationIndex" /> propriedade obtém ou define o identificador para o segmento ao qual esta mensagem pertence.</summary>
+        <value>O <see cref="P:ExchangeWebServices.PostItemType.ConversationIndex" /> propriedade retorna uma matriz de bytes que contém o identificador binário para o segmento ao qual esta mensagem pertence.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationTopic">
+      <MemberSignature Language="C#" Value="public string ConversationTopic { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationTopic" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PostItemType.ConversationTopic" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConversationTopic As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationTopic { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.PostItemType.ConversationTopic" /> propriedade obtém ou define o identificador de conversa.</summary>
+        <value>O <see cref="P:ExchangeWebServices.PostItemType.ConversationTopic" /> propriedade retorna uma string que contém o identificador de conversa.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="From">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SingleRecipientType From { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SingleRecipientType From" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PostItemType.From" />
+      <MemberSignature Language="VB.NET" Value="Public Property From As SingleRecipientType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SingleRecipientType ^ From { ExchangeWebServices::SingleRecipientType ^ get(); void set(ExchangeWebServices::SingleRecipientType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SingleRecipientType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.PostItemType.From" /> propriedade obtém ou define o endereço do qual o item de postagem foi enviado.</summary>
+        <value>O <see cref="P:ExchangeWebServices.PostItemType.From" /> propriedade retorna o endereço do qual o item de postagem foi enviado.</value>
+        <remarks>
+          <para>O <see cref="P:ExchangeWebServices.PostItemType.From" /> propriedade pode ser definida somente quando o item de postagem é criado.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageId">
+      <MemberSignature Language="C#" Value="public string InternetMessageId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InternetMessageId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PostItemType.InternetMessageId" />
+      <MemberSignature Language="VB.NET" Value="Public Property InternetMessageId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InternetMessageId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.PostItemType.InternetMessageId" /> propriedade obtém ou define o identificador de mensagem da Internet de um item.</summary>
+        <value>O <see cref="P:ExchangeWebServices.PostItemType.InternetMessageId" /> propriedade retorna uma string que contém o identificador de mensagem da Internet de um item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRead">
+      <MemberSignature Language="C#" Value="public bool IsRead { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRead" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PostItemType.IsRead" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRead As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRead { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.PostItemType.IsRead" /> propriedade obtém ou define um valor Boolean que indica se um item foi lido.</summary>
+        <value>O <see cref="P:ExchangeWebServices.PostItemType.IsRead" /> propriedade retorna <b>true</b> se o item de postagem foi lido; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadSpecified">
+      <MemberSignature Language="C#" Value="public bool IsReadSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PostItemType.IsReadSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReadSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.PostItemType.IsReadSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.PostItemType.IsRead" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.PostItemType.IsRead" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.PostItemType.IsReadSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.PostItemType.IsRead" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostedTime">
+      <MemberSignature Language="C#" Value="public DateTime PostedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime PostedTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PostItemType.PostedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime PostedTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.PostItemType.PostedTime" /> propriedade obtém ou define a data e hora em que um item foi lançado.</summary>
+        <value>O <see cref="P:ExchangeWebServices.PostItemType.PostedTime" /> propriedade retornará a data e hora em que um item foi lançado.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostedTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool PostedTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PostedTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PostItemType.PostedTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostedTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PostedTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.PostItemType.PostedTimeSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.PostItemType.PostedTime" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.PostItemType.PostedTime" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.PostItemType.PostedTimeSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.PostItemType.PostedTime" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="References">
+      <MemberSignature Language="C#" Value="public string References { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string References" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PostItemType.References" />
+      <MemberSignature Language="VB.NET" Value="Public Property References As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ References { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.PostItemType.References" /> propriedade obtém ou define o cabeçalho Usenet que é usado para associar respostas da mensagem original.</summary>
+        <value>O <see cref="P:ExchangeWebServices.PostItemType.References" /> propriedade retorna uma string que contém o cabeçalho de Usenet é usado para associar respostas da mensagem original.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sender">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SingleRecipientType Sender { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SingleRecipientType Sender" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PostItemType.Sender" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sender As SingleRecipientType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SingleRecipientType ^ Sender { ExchangeWebServices::SingleRecipientType ^ get(); void set(ExchangeWebServices::SingleRecipientType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SingleRecipientType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.PostItemType.Sender" /> propriedade obtém ou define o remetente de um item.</summary>
+        <value>O <see cref="P:ExchangeWebServices.PostItemType.Sender" /> propriedade retorna o remetente de um item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

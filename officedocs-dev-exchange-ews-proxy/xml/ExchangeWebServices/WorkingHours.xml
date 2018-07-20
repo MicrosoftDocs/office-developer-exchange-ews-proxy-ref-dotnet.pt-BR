@@ -1,0 +1,105 @@
+<Type Name="WorkingHours" FullName="ExchangeWebServices.WorkingHours">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="60f6fbce71c4746e3fdcab467d5fb783b7d86de1" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600314" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class WorkingHours" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit WorkingHours extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.WorkingHours" />
+  <TypeSignature Language="VB.NET" Value="Public Class WorkingHours" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WorkingHours" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.WorkingHours" /> classe representa as configurações de fuso horário e o horário de trabalho para o usuário de caixa de correio solicitada.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WorkingHours ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.WorkingHours.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WorkingHours();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.WorkingHours" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.WorkingHours" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZone">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SerializableTimeZone TimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SerializableTimeZone TimeZone" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WorkingHours.TimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeZone As SerializableTimeZone" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SerializableTimeZone ^ TimeZone { ExchangeWebServices::SerializableTimeZone ^ get(); void set(ExchangeWebServices::SerializableTimeZone ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SerializableTimeZone</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.WorkingHours.TimeZone" /> propriedade obtém ou define um valor que identifica as configurações de fuso horário para o horário de trabalho.</summary>
+        <value>O <see cref="P:ExchangeWebServices.WorkingHours.TimeZone" /> propriedade retorna os elementos que identificam as informações de fuso horário. Ele também retorna informações sobre a transição entre o período padrão e o horário de verão.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkingPeriodArray">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.WorkingPeriod[] WorkingPeriodArray { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.WorkingPeriod[] WorkingPeriodArray" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WorkingHours.WorkingPeriodArray" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkingPeriodArray As WorkingPeriod()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::WorkingPeriod ^&gt; ^ WorkingPeriodArray { cli::array &lt;ExchangeWebServices::WorkingPeriod ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::WorkingPeriod ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.WorkingPeriod[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.WorkingHours.WorkingPeriodArray" /> propriedade obtém ou define informações de período de trabalho para um usuário de caixa de correio.</summary>
+        <value>O <see cref="P:ExchangeWebServices.WorkingHours.WorkingPeriodArray" /> propriedade retorna uma matriz de <see cref="T:ExchangeWebServices.WorkingPeriod" /> instâncias que fornecem as informações de período de trabalho para um usuário de caixa de correio.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

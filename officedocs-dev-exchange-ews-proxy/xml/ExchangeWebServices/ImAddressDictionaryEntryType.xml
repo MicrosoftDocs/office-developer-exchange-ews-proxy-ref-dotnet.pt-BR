@@ -1,0 +1,110 @@
+<Type Name="ImAddressDictionaryEntryType" FullName="ExchangeWebServices.ImAddressDictionaryEntryType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="69338ecaa21082dfb0f68d31d0c1a25701eae9e2" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600614" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ImAddressDictionaryEntryType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ImAddressDictionaryEntryType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ImAddressDictionaryEntryType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ImAddressDictionaryEntryType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImAddressDictionaryEntryType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.ImAddressDictionaryEntryType" /> classe representa uma coleção de endereços de mensagens instantâneas de um contato.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImAddressDictionaryEntryType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ImAddressDictionaryEntryType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ImAddressDictionaryEntryType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="M:ExchangeWebServices.ImAddressDictionaryEntryType.#ctor" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.ImAddressDictionaryEntryType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Key">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ImAddressKeyType Key { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ImAddressKeyType Key" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ImAddressDictionaryEntryType.Key" />
+      <MemberSignature Language="VB.NET" Value="Public Property Key As ImAddressKeyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ImAddressKeyType Key { ExchangeWebServices::ImAddressKeyType get(); void set(ExchangeWebServices::ImAddressKeyType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ImAddressKeyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ImAddressDictionaryEntryType.Key" /> propriedade obtém ou define uma do válido <see cref="T:ExchangeWebServices.ImAddressKeyType" /> valores de enumeração que identificar um endereço que é associado a um contato de mensagens instantâneas.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ImAddressDictionaryEntryType.Key" /> propriedade retorna uma do válido <see cref="T:ExchangeWebServices.ImAddressKeyType" /> valores de enumeração.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ImAddressDictionaryEntryType.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlText</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ImAddressDictionaryEntryType.Value" /> propriedade obtém ou define um valor string que representa o endereço que é associado a um contato de mensagens instantâneas.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ImAddressDictionaryEntryType.Value" /> propriedade retornará um valor de cadeia de caracteres.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

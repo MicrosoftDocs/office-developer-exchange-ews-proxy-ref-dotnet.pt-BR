@@ -1,0 +1,88 @@
+<Type Name="ResponseMessageTypeMessageXml" FullName="ExchangeWebServices.ResponseMessageTypeMessageXml">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="98d17c9328b8b0bc9526b6d66b00ae89404ef555" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600660" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ResponseMessageTypeMessageXml" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ResponseMessageTypeMessageXml extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ResponseMessageTypeMessageXml" />
+  <TypeSignature Language="VB.NET" Value="Public Class ResponseMessageTypeMessageXml" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ResponseMessageTypeMessageXml" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(AnonymousType=true, Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.ResponseMessageTypeMessageXml" /> classe fornece informações de resposta de erro adicionais.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResponseMessageTypeMessageXml ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ResponseMessageTypeMessageXml.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ResponseMessageTypeMessageXml();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.ResponseMessageTypeMessageXml" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.ResponseMessageTypeMessageXml" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Any">
+      <MemberSignature Language="C#" Value="public System.Xml.XmlElement[] Any { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlElement[] Any" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResponseMessageTypeMessageXml.Any" />
+      <MemberSignature Language="VB.NET" Value="Public Property Any As XmlElement()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Xml::XmlElement ^&gt; ^ Any { cli::array &lt;System::Xml::XmlElement ^&gt; ^ get(); void set(cli::array &lt;System::Xml::XmlElement ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAnyElement</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Xml.XmlElement[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ResponseMessageTypeMessageXml.Any" /> propriedade obtém informações de erro adicionais.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ResponseMessageTypeMessageXml.Any" /> propriedade retorna uma matriz de objetos XmlElement.</value>
+        <remarks>
+          <para>Essa propriedade é opcional e não está incluída em todas as respostas. Ele é incluído para mensagens de erro. Nas respostas que envolvem pastas ou itens, o elemento MessageXml irá conter um ou mais elementos que contêm os URIs para as propriedades que causou o erro.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

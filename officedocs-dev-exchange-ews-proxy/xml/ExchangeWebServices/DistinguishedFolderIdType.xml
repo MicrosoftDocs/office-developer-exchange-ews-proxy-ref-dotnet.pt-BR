@@ -1,0 +1,142 @@
+<Type Name="DistinguishedFolderIdType" FullName="ExchangeWebServices.DistinguishedFolderIdType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0b1ff9e1aa14e8ce8bdd4d41c206163ebdac4f11" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20601573" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DistinguishedFolderIdType : ExchangeWebServices.BaseFolderIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DistinguishedFolderIdType extends ExchangeWebServices.BaseFolderIdType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DistinguishedFolderIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DistinguishedFolderIdType&#xA;Inherits BaseFolderIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DistinguishedFolderIdType : ExchangeWebServices::BaseFolderIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseFolderIdType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> classe identifica as pastas do Microsoft Exchange Server que podem ser referidas por nome. Se você não usar esta classe, você deve usar o <see cref="T:ExchangeWebServices.FolderIdType" /> classe para identificar uma pasta.</summary>
+    <remarks>
+      <para>Uma <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> objeto resolve para um <see cref="T:ExchangeWebServices.FolderIdType" /> objeto no servidor Exchange.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DistinguishedFolderIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DistinguishedFolderIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DistinguishedFolderIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeKey">
+      <MemberSignature Language="C#" Value="public string ChangeKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChangeKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistinguishedFolderIdType.ChangeKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChangeKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ChangeKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.ChangeKey" /> propriedade obtém ou define um valor string que identifica uma versão de uma pasta que é identificada pelo <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Id" /> propriedade.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.ChangeKey" /> propriedade retorna uma string que representa uma chave de alteração.</value>
+        <remarks>
+          <para>Essa propriedade é opcional. Use essa propriedade para certificar-se de que a versão correta de uma pasta é usada.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DistinguishedFolderIdNameType Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DistinguishedFolderIdNameType Id" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistinguishedFolderIdType.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As DistinguishedFolderIdNameType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DistinguishedFolderIdNameType Id { ExchangeWebServices::DistinguishedFolderIdNameType get(); void set(ExchangeWebServices::DistinguishedFolderIdNameType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Id" /> propriedade obtém ou define a identidade de uma pasta padrão.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Id" /> propriedade retornará uma <see cref="T:ExchangeWebServices.DistinguishedFolderIdNameType" /> enumeração que representa uma pasta padrão.</value>
+        <remarks>
+          <para>Essa propriedade é obrigatória.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistinguishedFolderIdType.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ Mailbox { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Mailbox" /> propriedade obtém ou define um endereço SMTP principal de uma entidade de segurança para um cenário de acesso de representante.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Mailbox" /> propriedade retornará uma <see cref="T:ExchangeWebServices.EmailAddressType" /> object que representa uma entidade em um cenário de acesso de representante.</value>
+        <remarks>
+          <para>Endereços de proxy não são permitidos como um valor para essa propriedade. Essa propriedade é obrigatória para acesso de representante.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

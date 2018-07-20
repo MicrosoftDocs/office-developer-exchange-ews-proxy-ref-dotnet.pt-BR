@@ -1,0 +1,335 @@
+<Type Name="ArrayOfResolutionType" FullName="ExchangeWebServices.ArrayOfResolutionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7696bb5367d3a869220ae702f786d9db703beb86" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600486" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ArrayOfResolutionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ArrayOfResolutionType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ArrayOfResolutionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ArrayOfResolutionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ArrayOfResolutionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.ArrayOfResolutionType" /> classe contém uma matriz de itens que são retornados pelo <see cref="M:ExchangeWebServices.ExchangeServiceBinding.ResolveNames(ExchangeWebServices.ResolveNamesType)" /> método.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArrayOfResolutionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ArrayOfResolutionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ArrayOfResolutionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="M:ExchangeWebServices.ArrayOfResolutionType.#ctor" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.ArrayOfResolutionType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AbsoluteDenominator">
+      <MemberSignature Language="C#" Value="public int AbsoluteDenominator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AbsoluteDenominator" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfResolutionType.AbsoluteDenominator" />
+      <MemberSignature Language="VB.NET" Value="Public Property AbsoluteDenominator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AbsoluteDenominator { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.AbsoluteDenominator" /> propriedade obtém ou define um valor integer que especifica o número total de itens no conjunto para uso com paginação fracional de resultados.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.AbsoluteDenominator" /> propriedade retorna um valor inteiro.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AbsoluteDenominatorSpecified">
+      <MemberSignature Language="C#" Value="public bool AbsoluteDenominatorSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AbsoluteDenominatorSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfResolutionType.AbsoluteDenominatorSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AbsoluteDenominatorSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AbsoluteDenominatorSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.AbsoluteDenominatorSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.ArrayOfResolutionType.AbsoluteDenominatorSpecified" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.ArrayOfResolutionType.AbsoluteDenominatorSpecified" /> propriedade estiver definida.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.AbsoluteDenominatorSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.ArrayOfResolutionType.AbsoluteDenominatorSpecified" /> é serializar a propriedade na resposta SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludesLastItemInRange">
+      <MemberSignature Language="C#" Value="public bool IncludesLastItemInRange { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludesLastItemInRange" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfResolutionType.IncludesLastItemInRange" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludesLastItemInRange As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludesLastItemInRange { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IncludesLastItemInRange" /> propriedade obtém ou define um valor Boolean que indica se todos os itens estão no intervalo especificado.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IncludesLastItemInRange" /> propriedade retorna <b>true</b> se todos os itens no conjunto de resultados estão incluídos no intervalo especificado; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludesLastItemInRangeSpecified">
+      <MemberSignature Language="C#" Value="public bool IncludesLastItemInRangeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludesLastItemInRangeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfResolutionType.IncludesLastItemInRangeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludesLastItemInRangeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludesLastItemInRangeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IncludesLastItemInRangeSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IncludesLastItemInRange" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IncludesLastItemInRange" /> propriedade estiver definida.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IncludesLastItemInRangeSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IncludesLastItemInRange" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexedPagingOffset">
+      <MemberSignature Language="C#" Value="public int IndexedPagingOffset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 IndexedPagingOffset" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfResolutionType.IndexedPagingOffset" />
+      <MemberSignature Language="VB.NET" Value="Public Property IndexedPagingOffset As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int IndexedPagingOffset { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IndexedPagingOffset" /> propriedade obtém ou define um valor integer que especifica o índice do próximo item para buscar quando usando indexado paginação.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IndexedPagingOffset" /> propriedade retornará um valor integer que especifica o índice do próximo item para buscar quando usando indexado paginação.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexedPagingOffsetSpecified">
+      <MemberSignature Language="C#" Value="public bool IndexedPagingOffsetSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IndexedPagingOffsetSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfResolutionType.IndexedPagingOffsetSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IndexedPagingOffsetSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IndexedPagingOffsetSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IndexedPagingOffsetSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IndexedPagingOffset" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IndexedPagingOffset" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IndexedPagingOffsetSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.ArrayOfResolutionType.IndexedPagingOffset" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumeratorOffset">
+      <MemberSignature Language="C#" Value="public int NumeratorOffset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumeratorOffset" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfResolutionType.NumeratorOffset" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumeratorOffset As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumeratorOffset { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.NumeratorOffset" /> propriedade obtém ou define um valor integer que especifica o índice do próximo item para buscar ao usar fracional paginação.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.NumeratorOffset" /> propriedade retornará um valor integer que especifica o índice do próximo item para buscar ao usar fracional paginação.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumeratorOffsetSpecified">
+      <MemberSignature Language="C#" Value="public bool NumeratorOffsetSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NumeratorOffsetSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfResolutionType.NumeratorOffsetSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumeratorOffsetSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NumeratorOffsetSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.NumeratorOffsetSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.ArrayOfResolutionType.NumeratorOffset" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.ArrayOfResolutionType.NumeratorOffset" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.NumeratorOffsetSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.ArrayOfResolutionType.NumeratorOffset" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resolution">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResolutionType[] Resolution { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ResolutionType[] Resolution" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfResolutionType.Resolution" />
+      <MemberSignature Language="VB.NET" Value="Public Property Resolution As ResolutionType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ResolutionType ^&gt; ^ Resolution { cli::array &lt;ExchangeWebServices::ResolutionType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ResolutionType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Resolution")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResolutionType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.Resolution" /> propriedade obtém ou define uma matriz que contém os elementos do tipo <see cref="T:ExchangeWebServices.ResolutionType" />.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.Resolution" /> propriedade retorna uma matriz que contém os elementos do tipo <see cref="T:ExchangeWebServices.ResolutionType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalItemsInView">
+      <MemberSignature Language="C#" Value="public int TotalItemsInView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalItemsInView" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfResolutionType.TotalItemsInView" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalItemsInView As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TotalItemsInView { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.TotalItemsInView" /> propriedade obtém ou define um valor integer que especifica o número total de itens no modo de exibição.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.TotalItemsInView" /> propriedade retornará um valor integer que especifica o número total de itens no modo de exibição.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalItemsInViewSpecified">
+      <MemberSignature Language="C#" Value="public bool TotalItemsInViewSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TotalItemsInViewSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfResolutionType.TotalItemsInViewSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalItemsInViewSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TotalItemsInViewSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.TotalItemsInViewSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.ArrayOfResolutionType.TotalItemsInView" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.ArrayOfResolutionType.TotalItemsInView" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ArrayOfResolutionType.TotalItemsInViewSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.ArrayOfResolutionType.TotalItemsInViewSpecified" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

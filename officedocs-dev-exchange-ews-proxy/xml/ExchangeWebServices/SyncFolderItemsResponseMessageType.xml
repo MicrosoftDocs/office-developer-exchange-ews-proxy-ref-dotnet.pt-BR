@@ -1,0 +1,145 @@
+<Type Name="SyncFolderItemsResponseMessageType" FullName="ExchangeWebServices.SyncFolderItemsResponseMessageType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a88c275ff11c965a337d5c89cbbe541517769cdd" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600773" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SyncFolderItemsResponseMessageType : ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SyncFolderItemsResponseMessageType extends ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SyncFolderItemsResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SyncFolderItemsResponseMessageType&#xA;Inherits ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SyncFolderItemsResponseMessageType : ExchangeWebServices::ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.SyncFolderItemsResponseMessageType" /> classe contém o status e os resultados de uma única chamada para o <see cref="M:ExchangeWebServices.ExchangeServiceBinding.SyncFolderItems(ExchangeWebServices.SyncFolderItemsType)" /> método.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SyncFolderItemsResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SyncFolderItemsResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SyncFolderItemsResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.SyncFolderItemsResponseMessageType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.SyncFolderItemsResponseMessageType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Changes">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SyncFolderItemsChangesType Changes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SyncFolderItemsChangesType Changes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.Changes" />
+      <MemberSignature Language="VB.NET" Value="Public Property Changes As SyncFolderItemsChangesType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SyncFolderItemsChangesType ^ Changes { ExchangeWebServices::SyncFolderItemsChangesType ^ get(); void set(ExchangeWebServices::SyncFolderItemsChangesType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SyncFolderItemsChangesType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.Changes" /> propriedade obtém ou define as diferenças entre as pastas no cliente e as pastas no servidor que está executando o Microsoft Exchange Server 2007.</summary>
+        <value>O <see cref="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.Changes" /> propriedade retornará uma <see cref="T:ExchangeWebServices.SyncFolderItemsChangesType" /> objeto que contém uma matriz sequenciada dos tipos de alteração que descrevem as diferenças entre as pastas no cliente e as pastas do Exchange Server.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludesLastItemInRange">
+      <MemberSignature Language="C#" Value="public bool IncludesLastItemInRange { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludesLastItemInRange" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.IncludesLastItemInRange" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludesLastItemInRange As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludesLastItemInRange { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.IncludesLastItemInRange" /> propriedade obtém ou define um valor Boolean que indica se o último item para sincronizar é incluído na resposta.</summary>
+        <value>O <see cref="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.IncludesLastItemInRange" /> propriedade retorna <b>true</b> se o último item para sincronizar está incluído na resposta; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludesLastItemInRangeSpecified">
+      <MemberSignature Language="C#" Value="public bool IncludesLastItemInRangeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludesLastItemInRangeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.IncludesLastItemInRangeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludesLastItemInRangeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludesLastItemInRangeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.IncludesLastItemInRangeSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.IncludesLastItemInRange" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.IncludesLastItemInRange" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.IncludesLastItemInRangeSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.IncludesLastItemInRange" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncState">
+      <MemberSignature Language="C#" Value="public string SyncState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SyncState" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.SyncState" />
+      <MemberSignature Language="VB.NET" Value="Public Property SyncState As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SyncState { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.SyncState" /> propriedade obtém ou define um formulário codificado na Base64 dos dados de sincronização que são usados para identificar o estado de sincronização.</summary>
+        <value>O <see cref="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.SyncState" /> propriedade retorna uma string que contém um formulário codificado na Base64 dos dados de sincronização que são usados para identificar o estado de sincronização.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

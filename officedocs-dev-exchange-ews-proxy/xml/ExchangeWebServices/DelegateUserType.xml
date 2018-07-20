@@ -1,0 +1,190 @@
+<Type Name="DelegateUserType" FullName="ExchangeWebServices.DelegateUserType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1f2cd7ba21bd5247632b363d4370b355e5604180" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20601884" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DelegateUserType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DelegateUserType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DelegateUserType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DelegateUserType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DelegateUserType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.DelegateUserType" /> classe identifica um único representante para adicionar ou atualizar em uma caixa de correio ou um representante que é retornado em uma resposta de gerenciamento do representante. Esta classe foi introduzida no Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DelegateUserType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DelegateUserType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DelegateUserType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.DelegateUserType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.DelegateUserType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatePermissions">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DelegatePermissionsType DelegatePermissions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.DelegatePermissionsType DelegatePermissions" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegateUserType.DelegatePermissions" />
+      <MemberSignature Language="VB.NET" Value="Public Property DelegatePermissions As DelegatePermissionsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DelegatePermissionsType ^ DelegatePermissions { ExchangeWebServices::DelegatePermissionsType ^ get(); void set(ExchangeWebServices::DelegatePermissionsType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DelegatePermissionsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DelegateUserType.DelegatePermissions" /> propriedade obtém ou define as configurações de nível de permissão para o representante.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DelegateUserType.DelegatePermissions" /> propriedade retorna uma do <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> valores de enumeração que indicam as permissões para o representante.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiveCopiesOfMeetingMessages">
+      <MemberSignature Language="C#" Value="public bool ReceiveCopiesOfMeetingMessages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReceiveCopiesOfMeetingMessages" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReceiveCopiesOfMeetingMessages As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReceiveCopiesOfMeetingMessages { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> propriedade obtém ou define um valor Boolean que indica se o representante recebe cópias de mensagens relacionadas a reuniões que são abordadas à entidade de segurança.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> propriedade retorna <b>true</b> se o representante recebe mensagens relacionadas a reuniões que são abordadas à entidade de segurança; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceiveCopiesOfMeetingMessagesSpecified">
+      <MemberSignature Language="C#" Value="public bool ReceiveCopiesOfMeetingMessagesSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReceiveCopiesOfMeetingMessagesSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessagesSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReceiveCopiesOfMeetingMessagesSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReceiveCopiesOfMeetingMessagesSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessagesSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessagesSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.DelegateUserType.ReceiveCopiesOfMeetingMessages" /> foi serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UserIdType UserId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UserIdType UserId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegateUserType.UserId" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserId As UserIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UserIdType ^ UserId { ExchangeWebServices::UserIdType ^ get(); void set(ExchangeWebServices::UserIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DelegateUserType.UserId" /> propriedade obtém ou define um valor que identifica o delegado.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DelegateUserType.UserId" /> propriedade retornará uma <see cref="T:ExchangeWebServices.UserIdType" /> objeto que identifica o delegado.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewPrivateItems">
+      <MemberSignature Language="C#" Value="public bool ViewPrivateItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ViewPrivateItems" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property ViewPrivateItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ViewPrivateItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> propriedade obtém ou define um valor Boolean que indica se o representante tem permissão para exibir itens de calendário particular no calendário do principal.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> propriedade retorna <b>true</b> se o representante tem permissão para exibir itens de calendário particular no calendário do principal; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewPrivateItemsSpecified">
+      <MemberSignature Language="C#" Value="public bool ViewPrivateItemsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ViewPrivateItemsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegateUserType.ViewPrivateItemsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ViewPrivateItemsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ViewPrivateItemsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItemsSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItemsSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.DelegateUserType.ViewPrivateItems" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

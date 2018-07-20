@@ -1,0 +1,401 @@
+<Type Name="BasePermissionType" FullName="ExchangeWebServices.BasePermissionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ad0ad610421585830788168fac86ed252f96fbf3" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600556" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class BasePermissionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit BasePermissionType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.BasePermissionType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class BasePermissionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BasePermissionType abstract" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.CalendarPermissionType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.PermissionType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.BasePermissionType" /> classe é uma classe abstrata que define permissões de base para itens e pastas.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected BasePermissionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.BasePermissionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; BasePermissionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.BasePermissionType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.BasePermissionType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanCreateItems">
+      <MemberSignature Language="C#" Value="public bool CanCreateItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanCreateItems" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.CanCreateItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property CanCreateItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanCreateItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateItems" /> propriedade obtém ou define um valor Boolean que especifica se um cliente pode criar itens em uma pasta.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateItems" /> propriedade retorna <b>true</b> se o cliente pode criar itens em uma pasta; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanCreateItemsSpecified">
+      <MemberSignature Language="C#" Value="public bool CanCreateItemsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanCreateItemsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.CanCreateItemsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property CanCreateItemsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanCreateItemsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateItemsSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateItems" /> propriedades são serializadas na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateItems" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateItemsSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateItems" /> propriedade é serializada na solicitação SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanCreateSubFolders">
+      <MemberSignature Language="C#" Value="public bool CanCreateSubFolders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanCreateSubFolders" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.CanCreateSubFolders" />
+      <MemberSignature Language="VB.NET" Value="Public Property CanCreateSubFolders As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanCreateSubFolders { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateSubFolders" /> propriedade obtém ou define um valor Boolean que especifica se o cliente pode criar subpastas.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateSubFolders" /> propriedade retorna <b>true</b> se o cliente pode criar subpastas; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanCreateSubFoldersSpecified">
+      <MemberSignature Language="C#" Value="public bool CanCreateSubFoldersSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanCreateSubFoldersSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.CanCreateSubFoldersSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property CanCreateSubFoldersSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanCreateSubFoldersSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateSubFoldersSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateSubFolders" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateSubFolders" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateSubFoldersSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.BasePermissionType.CanCreateSubFolders" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteItems">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PermissionActionType DeleteItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PermissionActionType DeleteItems" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.DeleteItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeleteItems As PermissionActionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PermissionActionType DeleteItems { ExchangeWebServices::PermissionActionType get(); void set(ExchangeWebServices::PermissionActionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionActionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.DeleteItems" /> propriedade obtém ou define um valor que especifica se o cliente pode excluir itens.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.DeleteItems" /> propriedade retorna uma do <see cref="T:ExchangeWebServices.PermissionActionType" /> valores de enumeração que indicam o tipo de permissão que o cliente tem excluir itens.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteItemsSpecified">
+      <MemberSignature Language="C#" Value="public bool DeleteItemsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DeleteItemsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.DeleteItemsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeleteItemsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DeleteItemsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.DeleteItemsSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.BasePermissionType.DeleteItems" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.BasePermissionType.DeleteItems" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.DeleteItemsSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.BasePermissionType.DeleteItems" /> propriedade é serializada na solicitação SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditItems">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PermissionActionType EditItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PermissionActionType EditItems" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.EditItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property EditItems As PermissionActionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PermissionActionType EditItems { ExchangeWebServices::PermissionActionType get(); void set(ExchangeWebServices::PermissionActionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionActionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.EditItems" /> propriedade obtém ou define um valor que especifica se um cliente pode editar itens.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.EditItems" /> propriedade retorna uma do <see cref="T:ExchangeWebServices.PermissionActionType" /> valores de enumeração que indicam o tipo de permissão que o cliente tem editem itens.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditItemsSpecified">
+      <MemberSignature Language="C#" Value="public bool EditItemsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EditItemsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.EditItemsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property EditItemsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EditItemsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.EditItemsSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.BasePermissionType.EditItems" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.BasePermissionType.EditItems" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.EditItemsSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.BasePermissionType.EditItems" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderContact">
+      <MemberSignature Language="C#" Value="public bool IsFolderContact { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFolderContact" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.IsFolderContact" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFolderContact As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFolderContact { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderContact" /> propriedade obtém ou define um valor Boolean que especifica se um usuário é um contato para uma pasta.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderContact" /> propriedade retorna <b>true</b> se o usuário é um contato para uma pasta; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderContactSpecified">
+      <MemberSignature Language="C#" Value="public bool IsFolderContactSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFolderContactSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.IsFolderContactSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFolderContactSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFolderContactSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderContactSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderContactSpecified" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderContact" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderContactSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderContact" /> propriedade é serializada na solicitação SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderOwner">
+      <MemberSignature Language="C#" Value="public bool IsFolderOwner { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFolderOwner" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.IsFolderOwner" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFolderOwner As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFolderOwner { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderOwner" /> propriedade obtém ou define um valor Boolean que especifica se o usuário é o proprietário de uma pasta.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderOwner" /> propriedade retorna <b>true</b> se o usuário é o proprietário da pasta; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderOwnerSpecified">
+      <MemberSignature Language="C#" Value="public bool IsFolderOwnerSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFolderOwnerSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.IsFolderOwnerSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFolderOwnerSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFolderOwnerSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderOwnerSpecified" /> propriedade retorna um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderOwnerSpecified" /> propriedade for especificada na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderOwner" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderOwnerSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderOwner" /> é especificado; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderVisible">
+      <MemberSignature Language="C#" Value="public bool IsFolderVisible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFolderVisible" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.IsFolderVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFolderVisible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFolderVisible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderVisible" /> propriedade retorna um valor Boolean que especifica se um usuário pode exibir uma pasta.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderVisible" /> propriedade retorna <b>true</b> se o usuário pode exibir a pasta; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderVisibleSpecified">
+      <MemberSignature Language="C#" Value="public bool IsFolderVisibleSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFolderVisibleSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.IsFolderVisibleSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFolderVisibleSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFolderVisibleSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderVisibleSpecified" /> propriedade retorna um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderVisible" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderVisible" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderVisibleSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.BasePermissionType.IsFolderVisible" /> propriedade especificada; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UserIdType UserId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UserIdType UserId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePermissionType.UserId" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserId As UserIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UserIdType ^ UserId { ExchangeWebServices::UserIdType ^ get(); void set(ExchangeWebServices::UserIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.BasePermissionType.UserId" /> propriedade identifica um usuário ou um usuário delegado tem permissões de acesso de pasta.</summary>
+        <value>O <see cref="P:ExchangeWebServices.BasePermissionType.UserId" /> propriedade retornará uma <see cref="T:ExchangeWebServices.UserIdType" /> instância que identifica um usuário ou um usuário delegado tem permissões de acesso de pasta.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

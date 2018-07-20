@@ -1,0 +1,126 @@
+<Type Name="SuggestionQuality" FullName="ExchangeWebServices.SuggestionQuality">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="32822181be775993226402ac90e32ddb97ce423c" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600366" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SuggestionQuality" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed SuggestionQuality extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SuggestionQuality" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SuggestionQuality" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SuggestionQuality" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.SuggestionQuality" /> enumeração identifica os tipos de qualidade da reunião sugerido dia ou hora.</summary>
+    <remarks>
+      <para>Esta enumeração é usada pelas seguintes propriedades:</para>
+      <list type="bullet">
+        <item>
+          <description>o <see cref="P:ExchangeWebServices.SuggestionsViewOptionsType.MinimumSuggestionQuality" /> propriedade do <see cref="T:ExchangeWebServices.SuggestionsViewOptionsType" /> objeto</description>
+        </item>
+        <item>
+          <description>o <see cref="P:ExchangeWebServices.Suggestion.SuggestionQuality" /> propriedade do <see cref="T:ExchangeWebServices.Suggestion" /> objeto</description>
+        </item>
+        <item>
+          <description>o <see cref="P:ExchangeWebServices.SuggestionDayResult.DayQuality" /> propriedade do <see cref="T:ExchangeWebServices.SuggestionDayResult" /> objeto</description>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Excellent">
+      <MemberSignature Language="C#" Value="Excellent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SuggestionQuality Excellent = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SuggestionQuality.Excellent" />
+      <MemberSignature Language="VB.NET" Value="Excellent" />
+      <MemberSignature Language="C++ CLI" Value="Excellent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Especifica a 100% de usuários e recursos estão disponíveis para o tempo de reunião sugeridas.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Fair">
+      <MemberSignature Language="C#" Value="Fair" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SuggestionQuality Fair = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SuggestionQuality.Fair" />
+      <MemberSignature Language="VB.NET" Value="Fair" />
+      <MemberSignature Language="C++ CLI" Value="Fair" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Especifica que a porcentagem máxima de usuários e recursos que estão disponíveis para um horário de reunião sugerido é igual ao valor do elemento GoodThreshold mais de 50. O valor mínimo para um horário de reunião de qualidade <b>justo</b> é 50 por cento.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Good">
+      <MemberSignature Language="C#" Value="Good" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SuggestionQuality Good = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SuggestionQuality.Good" />
+      <MemberSignature Language="VB.NET" Value="Good" />
+      <MemberSignature Language="C++ CLI" Value="Good" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Especifica que a porcentagem mínima de usuários e recursos que estão disponíveis é igual ou maior que o valor do elemento de GoodThreshold mais de 50.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Poor">
+      <MemberSignature Language="C#" Value="Poor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SuggestionQuality Poor = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SuggestionQuality.Poor" />
+      <MemberSignature Language="VB.NET" Value="Poor" />
+      <MemberSignature Language="C++ CLI" Value="Poor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Especifica que o menor que 50% dos usuários e recursos estão disponíveis para o tempo de reunião sugeridas.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,77 @@
+<Type Name="SyncFolderItemsScopeType" FullName="ExchangeWebServices.SyncFolderItemsScopeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1f77dca700da17a3bb857160a48eedbb9d89ef59" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600373" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SyncFolderItemsScopeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed SyncFolderItemsScopeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SyncFolderItemsScopeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SyncFolderItemsScopeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SyncFolderItemsScopeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.SyncFolderItemsScopeType" /> enumeração define as informações que são retornadas em uma resposta de sincronização.</summary>
+    <remarks>
+      <para>Esta enumeração é usada pelo <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncScope" /> propriedade do <see cref="T:ExchangeWebServices.SyncFolderItemsType" /> objeto.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NormalAndAssociatedItems">
+      <MemberSignature Language="C#" Value="NormalAndAssociatedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SyncFolderItemsScopeType NormalAndAssociatedItems = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SyncFolderItemsScopeType.NormalAndAssociatedItems" />
+      <MemberSignature Language="VB.NET" Value="NormalAndAssociatedItems" />
+      <MemberSignature Language="C++ CLI" Value="NormalAndAssociatedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SyncFolderItemsScopeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indica que ambos os itens da pasta e as informações da pasta associada são retornados em uma resposta de sincronização.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalItems">
+      <MemberSignature Language="C#" Value="NormalItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SyncFolderItemsScopeType NormalItems = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SyncFolderItemsScopeType.NormalItems" />
+      <MemberSignature Language="VB.NET" Value="NormalItems" />
+      <MemberSignature Language="C++ CLI" Value="NormalItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SyncFolderItemsScopeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indica que apenas os itens na pasta são retornados em uma resposta de sincronização.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,151 @@
+<Type Name="SubscribeType" FullName="ExchangeWebServices.SubscribeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1cf8efecccc7ccb81b2a728a8011c7491eade2be" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600384" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SubscribeType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SubscribeType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SubscribeType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SubscribeType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SubscribeType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.SubscribeType" /> classe representa uma solicitação para assinar notificações de eventos em caixas de correio no banco de dados do Exchange.</summary>
+    <remarks>
+      <para>O <see cref="T:ExchangeWebServices.SubscribeType" /> classe é usada para tipos de notificação de envio e recepção.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>o seguinte exemplo de código mostra como criar uma inscrição de notificação de recepção que monitora a caixa de entrada e outra pasta. O </para>
+      <para>caixa de entrada é identificado pelo <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> classe e a outra pasta é identificado pelo <see cref="T:ExchangeWebServices.FolderIdType" /> classe. Ambas as pastas são monitoradas para novas mensagens de email, copiado itens, movido itens, modificado itens, criar itens e itens excluídos. A assinatura será o tempo limite apenas se não for feita uma chamada de GetEvents dentro do intervalo de tempo limite.</para>
+      <code>static void Subscribe(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    SubscribeType &lt;span class="label"&gt;request&lt;/span&gt; = new SubscribeType();
+
+    // Identify the type of subscription.
+    PullSubscriptionRequestType pullSub = new PullSubscriptionRequestType();
+
+    // Identify the folders that are monitored for events.
+    DistinguishedFolderIdType inbox = new DistinguishedFolderIdType();
+    inbox.Id = DistinguishedFolderIdNameType.inbox;
+    FolderIdType customFolder = new FolderIdType();
+    customFolder.Id = "AQAlAE1=";
+    pullSub.FolderIds = new BaseFolderIdType[2] { inbox, customFolder };
+
+    // Identify the events that are monitored for the subscription.
+    pullSub.EventTypes = new NotificationEventTypeType[6]
+    {
+        NotificationEventTypeType.CopiedEvent,
+        NotificationEventTypeType.CreatedEvent,
+        NotificationEventTypeType.DeletedEvent,
+        NotificationEventTypeType.ModifiedEvent,
+        NotificationEventTypeType.MovedEvent,
+        NotificationEventTypeType.NewMailEvent
+    };
+
+    // Define the time-out period for the subscription (in minutes).
+    pullSub.Timeout = 10;
+
+    &lt;span class="label"&gt;request&lt;/span&gt;.Item = pullSub;
+
+    // Send the request and get the response.
+    SubscribeResponseType response = esb.Subscribe(&lt;span class="label"&gt;request&lt;/span&gt;);
+
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        // Cast to the appropriate response.
+        SubscribeResponseMessageType respMsg = (rmt as SubscribeResponseMessageType);
+        
+        // Get the new subscription information.
+        if (respMsg.ResponseClass == ResponseClassType.Success)
+        {
+            Console.WriteLine("New subscription: " + respMsg.SubscriptionId);
+            Console.WriteLine("Watermark: " + respMsg.Watermark);
+        }
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SubscribeType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SubscribeType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SubscribeType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.SubscribeType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.SubscribeType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SubscribeType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Item { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("PushSubscriptionRequest", typeof(ExchangeWebServices.PushSubscriptionRequestType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("PullSubscriptionRequest", typeof(ExchangeWebServices.PullSubscriptionRequestType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("StreamingSubscriptionRequest", typeof(ExchangeWebServices.StreamingSubscriptionRequestType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.SubscribeType.Item" /> propriedade obtém ou define o tipo de assinatura. Essa propriedade obtém ou define um um <see cref="T:ExchangeWebServices.PullSubscriptionRequestType" /> ou <see cref="T:ExchangeWebServices.PushSubscriptionRequestType" /> objeto. Essa propriedade é obrigatória. Esta é uma propriedade de leitura/gravação.</summary>
+        <value>O <see cref="P:ExchangeWebServices.SubscribeType.Item" /> propriedade retornará uma <see cref="T:ExchangeWebServices.BaseSubscriptionRequestType" /> object que representa o tipo de assinatura.</value>
+        <remarks>
+          <para>O <see cref="P:ExchangeWebServices.SubscribeType.Item" /> propriedade pode ser definida com qualquer um um <see cref="T:ExchangeWebServices.PullSubscriptionRequestType" /> ou <see cref="T:ExchangeWebServices.PushSubscriptionRequestType" /> objeto. Os dois tipos de estender <see cref="T:ExchangeWebServices.BaseSubscriptionRequestType" />, que é uma classe abstrata. Para obter mais informações sobre por que essa propriedade for definida com esses objetos, consulte XML esquema escolha elemento Proxy artefatos.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,100 @@
+<Type Name="ExpandDLType" FullName="ExchangeWebServices.ExpandDLType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4f5882c73d385e4fc86a57f2ce6d8edcd59deec3" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20601812" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ExpandDLType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ExpandDLType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ExpandDLType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExpandDLType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExpandDLType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.ExpandDLType" /> classe representa uma solicitação para expandir uma lista de distribuição.</summary>
+    <remarks>
+      <para>Ambas as listas de distribuição pública e privada podem ser expandidas.</para>
+      <para>
+        <b>Observação</b>: ocorrerá um erro se o EmailAddress que é especificado na solicitação não corresponde a uma lista de distribuição, ou o que é especificado na solicitação ItemId corresponde a uma lista de distribuição de não-particulares.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>O exemplo de código a seguir mostra como uma solicitação de expansão de lista de distribuição é criada.</para>
+      <code>// Create an ExpandDLType.
+ExpandDLType &lt;span class="label"&gt;expandDl&lt;/span&gt; = new ExpandDLType();
+
+// Set the e-mail address and routing type of the distribution list.
+&lt;span class="label"&gt;expandDl&lt;/span&gt;.Mailbox = new EmailAddressType();
+&lt;span class="label"&gt;expandDl&lt;/span&gt;.Mailbox.EmailAddress = "myDL@myDomain.com";
+
+// Expand the distribution list.
+ExpandDLResponseType expandDlResponse = esb.ExpandDL(&lt;span class="label"&gt;expandDl&lt;/span&gt;);</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExpandDLType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ExpandDLType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExpandDLType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.ExpandDLType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.ExpandDLType" /> tipo.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExpandDLType.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ Mailbox { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.ExpandDLType.Mailbox" /> propriedade obtém ou define o identificador para expandir a lista de distribuição. Essa propriedade é obrigatória. Esta é uma propriedade de leitura/gravação.</summary>
+        <value>O <see cref="P:ExchangeWebServices.ExpandDLType.Mailbox" /> propriedade retornará uma <see cref="T:ExchangeWebServices.EmailAddressType" /> objeto.</value>
+        <remarks>
+          <para>O <see cref="P:ExchangeWebServices.ExpandDLType.Mailbox" /> propriedade estiver definida com um <see cref="T:ExchangeWebServices.EmailAddressType" /> objeto que contém o endereço de email de uma lista de distribuição pública ou o identificador do item de uma lista de distribuição particular.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

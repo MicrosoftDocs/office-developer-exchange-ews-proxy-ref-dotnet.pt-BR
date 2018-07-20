@@ -1,0 +1,173 @@
+<Type Name="DistributionListType" FullName="ExchangeWebServices.DistributionListType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4fe92b8329c8b07a08e1a0ad52fe34cecae353d5" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20601199" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DistributionListType : ExchangeWebServices.ItemType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DistributionListType extends ExchangeWebServices.ItemType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DistributionListType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DistributionListType&#xA;Inherits ItemType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DistributionListType : ExchangeWebServices::ItemType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ItemType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.DistributionListType" /> classe representa uma lista de distribuição.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DistributionListType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DistributionListType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DistributionListType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="M:ExchangeWebServices.DistributionListType.#ctor" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.DistributionListType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSource">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ContactSourceType ContactSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ContactSourceType ContactSource" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistributionListType.ContactSource" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContactSource As ContactSourceType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ContactSourceType ContactSource { ExchangeWebServices::ContactSourceType get(); void set(ExchangeWebServices::ContactSourceType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ContactSourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DistributionListType.ContactSource" /> propriedade obtém ou define uma do válido <see cref="T:ExchangeWebServices.ContactSourceType" /> valores de enumeração que descreve se o contato está localizado no armazenamento do Exchange ou no serviço de diretório do Active Directory.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DistributionListType.ContactSource" /> propriedade retorna uma do válido <see cref="T:ExchangeWebServices.ContactSourceType" /> valores de enumeração que descreve se o contato está localizado no armazenamento do Exchange ou no Active Directory.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSourceSpecified">
+      <MemberSignature Language="C#" Value="public bool ContactSourceSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ContactSourceSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistributionListType.ContactSourceSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContactSourceSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ContactSourceSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DistributionListType.ContactSourceSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.DistributionListType.ContactSource" /> propriedade é serializada na solicitação SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.DistributionListType.ContactSource" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DistributionListType.ContactSourceSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.DistributionListType.ContactSource" /> propriedade é serializada na solicitação SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistributionListType.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DistributionListType.DisplayName" /> propriedade obtém ou define um valor string que contém o nome de exibição da lista de distribuição.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DistributionListType.DisplayName" /> propriedade retorna um valor string que contém o nome de exibição da lista de distribuição.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAs">
+      <MemberSignature Language="C#" Value="public string FileAs { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileAs" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistributionListType.FileAs" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileAs As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileAs { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DistributionListType.FileAs" /> propriedade obtém ou define um valor string que representa como uma lista de contatos ou de distribuição é arquivada na pasta Contatos.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DistributionListType.FileAs" /> propriedade retorna um valor string que representa como uma lista de contatos ou de distribuição é arquivada na pasta Contatos.</value>
+        <remarks>
+          <para>O <see cref="P:ExchangeWebServices.DistributionListType.FileAs" /> propriedade é usada para classificar as listas de distribuição por um nome que não seja um nome completo ou empresa.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Members">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MemberType[] Members { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.MemberType[] Members" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistributionListType.Members" />
+      <MemberSignature Language="VB.NET" Value="Public Property Members As MemberType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::MemberType ^&gt; ^ Members { cli::array &lt;ExchangeWebServices::MemberType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::MemberType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Member", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MemberType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Retorna <see cref="T:ExchangeWebServices.MemberType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

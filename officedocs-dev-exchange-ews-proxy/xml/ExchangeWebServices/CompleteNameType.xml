@@ -1,0 +1,263 @@
+<Type Name="CompleteNameType" FullName="ExchangeWebServices.CompleteNameType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1a00b9f021ef0d9a68cdd9544b65e9d6c054b552" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600124" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CompleteNameType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CompleteNameType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CompleteNameType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CompleteNameType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CompleteNameType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.CompleteNameType" /> classe representa o nome completo de um contato.</summary>
+    <remarks>
+      <para>A propriedade CompleteName é parte da forma padrão. A versão de lançamento inicial do Microsoft Exchange Server 2007, a propriedade CompleteName é retornada pela operação GetItem, mas não a operação FindItem. Iniciando com o Exchange Server 2007 Service Pack 1 (SP1), a operação FindItem também retorna a propriedade CompleteName com a forma padrão. Essa alteração não afeta o esquema.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CompleteNameType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CompleteNameType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompleteNameType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.CompleteNameType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.CompleteNameType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstName">
+      <MemberSignature Language="C#" Value="public string FirstName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FirstName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.FirstName" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirstName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FirstName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.CompleteNameType.FirstName" /> propriedade obtém ou define o nome de um contato.</summary>
+        <value>O <see cref="P:ExchangeWebServices.CompleteNameType.FirstName" /> propriedade retorna o primeiro nome de um contato.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullName">
+      <MemberSignature Language="C#" Value="public string FullName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FullName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.FullName" />
+      <MemberSignature Language="VB.NET" Value="Public Property FullName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FullName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.CompleteNameType.FullName" /> propriedade obtém ou define o nome completo de um contato.</summary>
+        <value>O <see cref="P:ExchangeWebServices.CompleteNameType.FullName" /> propriedade retorna o nome completo de um contato.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initials">
+      <MemberSignature Language="C#" Value="public string Initials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Initials" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.Initials" />
+      <MemberSignature Language="VB.NET" Value="Public Property Initials As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Initials { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.CompleteNameType.Initials" /> propriedade obtém ou define as iniciais de um contato.</summary>
+        <value>O <see cref="P:ExchangeWebServices.CompleteNameType.Initials" /> propriedade retorna as iniciais de um contato.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastName">
+      <MemberSignature Language="C#" Value="public string LastName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LastName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.LastName" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LastName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.CompleteNameType.LastName" /> propriedade obtém ou define o sobrenome de um contato.</summary>
+        <value>O <see cref="P:ExchangeWebServices.CompleteNameType.LastName" /> propriedade retorna o último nome de um contato.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MiddleName">
+      <MemberSignature Language="C#" Value="public string MiddleName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MiddleName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.MiddleName" />
+      <MemberSignature Language="VB.NET" Value="Public Property MiddleName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MiddleName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.CompleteNameType.MiddleName" /> propriedade obtém ou define o nome do meio de um contato.</summary>
+        <value>O <see cref="P:ExchangeWebServices.CompleteNameType.MiddleName" /> propriedade retorna o nome do meio de um contato.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nickname">
+      <MemberSignature Language="C#" Value="public string Nickname { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Nickname" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.Nickname" />
+      <MemberSignature Language="VB.NET" Value="Public Property Nickname As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Nickname { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.CompleteNameType.Nickname" /> propriedade obtém ou define o apelido de um contato.</summary>
+        <value>O <see cref="P:ExchangeWebServices.CompleteNameType.Nickname" /> propriedade retorna o apelido de um contato.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Suffix">
+      <MemberSignature Language="C#" Value="public string Suffix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Suffix" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.Suffix" />
+      <MemberSignature Language="VB.NET" Value="Public Property Suffix As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Suffix { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.CompleteNameType.Suffix" /> propriedade obtém ou define um sufixo de nome de um contato.</summary>
+        <value>O <see cref="P:ExchangeWebServices.CompleteNameType.Suffix" /> propriedade retornará um sufixo de nome de um contato.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="public string Title { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.Title" />
+      <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.CompleteNameType.Title" /> propriedade obtém ou define o título de um contato.</summary>
+        <value>O <see cref="P:ExchangeWebServices.CompleteNameType.Title" /> propriedade retorna o título de um contato.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiFirstName">
+      <MemberSignature Language="C#" Value="public string YomiFirstName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiFirstName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.YomiFirstName" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiFirstName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiFirstName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.CompleteNameType.YomiFirstName" /> propriedade obtém ou define o nome usado no Japão para a ortografia pesquisável ou fonética de um nome japonês.</summary>
+        <value>O <see cref="P:ExchangeWebServices.CompleteNameType.YomiFirstName" /> propriedade retorna o nome usado no Japão para a ortografia pesquisável ou fonética de um nome japonês.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiLastName">
+      <MemberSignature Language="C#" Value="public string YomiLastName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiLastName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CompleteNameType.YomiLastName" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiLastName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiLastName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.CompleteNameType.YomiLastName" /> propriedade obtém ou define o nome usado no Japão para a ortografia pesquisável ou fonética do japonês sobrenome.</summary>
+        <value>O <see cref="P:ExchangeWebServices.CompleteNameType.YomiLastName" /> propriedade retorna o nome usado no Japão para a ortografia pesquisável ou fonética do japonês sobrenome.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

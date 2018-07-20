@@ -1,0 +1,155 @@
+<Type Name="GetEventsType" FullName="ExchangeWebServices.GetEventsType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f0afaecbcbd74733c4d1df79577f294ad7ef00dc" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600490" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class GetEventsType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetEventsType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetEventsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetEventsType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetEventsType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.GetEventsType" /> classe representa uma solicitação para obter eventos para uma inscrição de notificação de recepção.</summary>
+    <remarks>
+      <para>Alterações nos itens de calendário podem resultar na geração de vários eventos. Operações em outros itens também podem gerar vários eventos de nível inferior. Esses eventos são o resultado da criação de itens temporários na caixa de correio e alterações livre/ocupado itens de armazenamento de dados como parte das operações de calendário usuais, ou ambos. Eventos para a classe de item IPM. SchedulePlus.FreeBusy.BinaryData devem ser ignorados por clientes de serviços Web. Esses itens temporários são excluídos depois que eles são criados. Se for feita uma tentativa para recuperar esses itens, será retornado um erro que afirma que o item não foi encontrado.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>O exemplo a seguir mostra como redigir uma solicitação para obter os eventos para uma inscrição de notificação de recepção. A marca d'água que é usada para criar a solicitação deve ser a última marca d'água retornada na última chamada de GetEvents ou, se essa for as primeira GetEvents chamada, a marca d'água na resposta da inscrição. A marca d'água do último evento deve ser salvas para ser usado para a próxima chamada ao GetEvents.</para>
+      <code>static void GetEvents(ExchangeServiceBinding esb)
+{ 
+    // Create the GetEvents request.
+    GetEventsType &lt;span class="label"&gt;request&lt;/span&gt; = new GetEventsType();
+
+    // Identify the subscription identifier and watermark for the subscription 
+    // that will be polled for changes in the Exchange store.
+    &lt;span class="label"&gt;request&lt;/span&gt;.SubscriptionId = "2448550a-4685-412c-bc40-62f0999a8bdb";
+    &lt;span class="label"&gt;request&lt;/span&gt;.Watermark = "AQAAAM/SnQORsD1IqTUHelGT0oxxHQAAAAAAAAE=";
+
+    // Send the request and get the response.
+    GetEventsResponseType response = esb.GetEvents(&lt;span class="label"&gt;request&lt;/span&gt;);
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        // Determine whether the request was a success.
+        if (rmt.ResponseClass == ResponseClassType.Success)
+        {
+            // Cast to appropriate response message type.
+            GetEventsResponseMessageType responseMessage = (rmt as GetEventsResponseMessageType);
+
+            // Get the notifications.
+            NotificationType notificaton = responseMessage.Notification;
+            BaseNotificationEventType[] bneta = notificaton.Items;
+
+            foreach (BaseNotificationEventType bnet in bneta)
+            {
+                // TODO: Handle each notification. Refer to the Push Notification 
+                //       sample for an example of how to do this.
+            }
+
+            if (notificaton.MoreEvents)
+            {
+                // TODO: Call GetEvents again with the watermark to get the
+                //       remaining events.
+            }
+        }
+    }
+}</code>
+      <para>Para obter mais informações sobre as notificações de recepção, consulte o aplicativo de amostra de notificação de Push.</para>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetEventsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetEventsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetEventsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.GetEventsType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.GetEventsType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionId">
+      <MemberSignature Language="C#" Value="public string SubscriptionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubscriptionId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetEventsType.SubscriptionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscriptionId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubscriptionId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.GetEventsType.SubscriptionId" /> propriedade obtém ou define o identificador de uma assinatura. Essa propriedade é obrigatória. Esta é uma propriedade de leitura/gravação.</summary>
+        <value>A propriedade <see cref="P:ExchangeWebServices.GetEventsType.SubscriptionId" /> retorna uma cadeia de caracteres.</value>
+        <remarks>
+          <para>A cadeia de caracteres que representa o identificador de inscrição é um GUID. O GUID é gerado pelo servidor de acesso para cliente quando a assinatura é criada.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Watermark">
+      <MemberSignature Language="C#" Value="public string Watermark { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Watermark" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetEventsType.Watermark" />
+      <MemberSignature Language="VB.NET" Value="Public Property Watermark As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Watermark { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.GetEventsType.Watermark" /> propriedade obtém ou define um string que representa um indicador de evento na fila de eventos de caixa de correio. Essa propriedade é obrigatória. Esta é uma propriedade de leitura/gravação.</summary>
+        <value>A propriedade <see cref="P:ExchangeWebServices.GetEventsType.Watermark" /> retorna uma cadeia de caracteres.</value>
+        <remarks>
+          <para>Esta marca d'água descreve onde a operação GetEvents começa retornar os eventos. A marca d'água que é passada para GetEvents deve ser a última marca d'água foi retornada ao cliente. Se essa for a primeira chamada para GetEvents após Subscribe, a marca d'água retornada pelo Subscribe deve ser passada para GetEvents. Se já tiver sido chamado GetEvents, a marca d'água que é passada para o próximo GetEvents chamada deve ser a marca d'água do último evento que é retornado o GetEvents anterior chame.</para>
+          <para>Se o <see cref="P:ExchangeWebServices.GetEventsType.Watermark" /> propriedade estiver definida com uma marca d'água inválida, uma <see cref="F:ExchangeWebServices.ResponseCodeType.ErrorInvalidWatermark" /> erro será retornado para o aplicativo cliente.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

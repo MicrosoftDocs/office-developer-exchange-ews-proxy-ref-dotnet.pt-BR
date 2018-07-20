@@ -1,0 +1,78 @@
+<Type Name="IndexBasePointType" FullName="ExchangeWebServices.IndexBasePointType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6e3e2b0b6dbe4b02e4439658cc3137033de424c9" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600510" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum IndexBasePointType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed IndexBasePointType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.IndexBasePointType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum IndexBasePointType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class IndexBasePointType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.IndexBasePointType" /> enumeração Especifica se a página de itens começará no início ou no final do conjunto de itens que estão localizados usando os critérios de pesquisa.</summary>
+    <remarks>
+      <para>Esta enumeração é usada pelo <see cref="P:ExchangeWebServices.IndexedPageViewType.BasePoint" /> propriedade do <see cref="T:ExchangeWebServices.IndexedPageViewType" /> objeto. </para>
+      <para>Quando você estiver usando o <see cref="F:ExchangeWebServices.IndexBasePointType.End" /> valor, lembre-se de que que buscam a partir do término do envolve mover para a origem que é identificada pelo deslocamento. Além disso, o ponteiro é movido de volta pelo número de registros solicitados. Por exemplo, se existem 100 registros e o deslocamento for 25 do fim, a pesquisa começa a partir 75. Se 10 registros forem retornados, o ponteiro é movido para trás uma 10 adicionais de registros para 66 e retorna registros 66 por meio de 75. O próximo índice é 65. O deslocamento próximo do final de uma página é 100 menos 65, que é igual a 35. 35 é o valor para o próximo deslocamento do final para obter a próxima página indexada.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Beginning">
+      <MemberSignature Language="C#" Value="Beginning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IndexBasePointType Beginning = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IndexBasePointType.Beginning" />
+      <MemberSignature Language="VB.NET" Value="Beginning" />
+      <MemberSignature Language="C++ CLI" Value="Beginning" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IndexBasePointType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Especifica que o modo de exibição paginado começa no início do conjunto de item encontrado.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="End" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IndexBasePointType End = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IndexBasePointType.End" />
+      <MemberSignature Language="VB.NET" Value="End" />
+      <MemberSignature Language="C++ CLI" Value="End" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IndexBasePointType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Especifica que o modo de exibição paginado começa no final do conjunto de item encontrado. Procurando a partir do término do sempre pesquisa para trás.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

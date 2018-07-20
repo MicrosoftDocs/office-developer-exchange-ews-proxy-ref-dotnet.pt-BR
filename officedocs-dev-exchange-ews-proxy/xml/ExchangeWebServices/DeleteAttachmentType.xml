@@ -1,0 +1,126 @@
+<Type Name="DeleteAttachmentType" FullName="ExchangeWebServices.DeleteAttachmentType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="caaee151214a9356cc7db7abef5836cba4cba212" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600265" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DeleteAttachmentType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DeleteAttachmentType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DeleteAttachmentType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeleteAttachmentType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeleteAttachmentType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.DeleteAttachmentType" /> classe representa uma solicitação para excluir um anexo em um item no banco de dados do Exchange.</summary>
+    <remarks>
+      <para>A operação DeleteAttachment retorna o identificador e a nova chave de alteração do item que são mantidos no anexo antes de ele foi excluído.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>O exemplo de código a seguir mostra uma solicitação de DeleteItem que exclui dois anexos.</para>
+      <code>static void DeleteAttachment(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    &lt;span class="label"&gt;DeleteAttachmentType&lt;/span&gt;&lt;span class="label"&gt;request&lt;/span&gt; = new DeleteAttachmentType();
+    
+    // Identify the attachments to delete.
+    RequestAttachmentIdType[] attachments = new RequestAttachmentIdType[2];
+    attachments[0] = new RequestAttachmentIdType();
+    attachments[1] = new RequestAttachmentIdType();
+    attachments[0].Id = "AAAlAE1B";
+    attachments[1].Id = "AAAlAE1B";
+
+    &lt;span class="label"&gt;request&lt;/span&gt;.AttachmentIds = attachments;
+
+    try
+    {
+        DeleteAttachmentResponseType response = esb.DeleteAttachment(&lt;span class="label"&gt;request&lt;/span&gt;);
+        ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+        ResponseMessageType[] rmta = aormt.Items;
+
+        foreach (ResponseMessageType rmt in rmta)
+        {
+            DeleteAttachmentResponseMessageType darmt = (rmt as DeleteAttachmentResponseMessageType);
+
+            if (darmt.ResponseClass == ResponseClassType.Success)
+            {
+                Console.WriteLine("Attachment deleted from ItemId: " + darmt.RootItemId.RootItemId);    
+            }
+        }
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeleteAttachmentType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DeleteAttachmentType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeleteAttachmentType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.DeleteAttachmentType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.DeleteAttachmentType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RequestAttachmentIdType[] AttachmentIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RequestAttachmentIdType[] AttachmentIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DeleteAttachmentType.AttachmentIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttachmentIds As RequestAttachmentIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::RequestAttachmentIdType ^&gt; ^ AttachmentIds { cli::array &lt;ExchangeWebServices::RequestAttachmentIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::RequestAttachmentIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("AttachmentId", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RequestAttachmentIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.DeleteAttachmentType.AttachmentIds" /> propriedade obtém ou define o conjunto de identificadores de anexos que são usados para identificar os anexos a ser excluído.</summary>
+        <value>O <see cref="P:ExchangeWebServices.DeleteAttachmentType.AttachmentIds" /> propriedade retornará uma <see cref="T:ExchangeWebServices.RequestAttachmentIdType" /> matriz que identifica os anexos set para excluir.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

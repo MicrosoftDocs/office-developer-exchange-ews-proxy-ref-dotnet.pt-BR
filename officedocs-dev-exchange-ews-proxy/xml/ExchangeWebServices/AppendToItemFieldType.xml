@@ -1,0 +1,122 @@
+<Type Name="AppendToItemFieldType" FullName="ExchangeWebServices.AppendToItemFieldType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="40f6d68dcb014f85f8577915f281c171ad7698ed" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20601754" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AppendToItemFieldType : ExchangeWebServices.ItemChangeDescriptionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AppendToItemFieldType extends ExchangeWebServices.ItemChangeDescriptionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AppendToItemFieldType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AppendToItemFieldType&#xA;Inherits ItemChangeDescriptionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppendToItemFieldType : ExchangeWebServices::ItemChangeDescriptionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ItemChangeDescriptionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.AppendToItemFieldType" /> classe identifica os dados a serem acrescentados a uma única propriedade de um item durante uma operação UpdateItem.</summary>
+    <remarks>
+      <para>Somente suporte determinadas propriedades acrescentar operações. Uma tentativa de acrescente uma propriedade que não oferece suporte a acrescentando resultará em erro.</para>
+      <para>Para operações de atualização, apenas uma propriedade pode ser modificada dentro de uma única solicitação. Que a única propriedade deve ser referenciada no elemento de<b>Item</b> de <a href="ms-help://MS.ExchangeServerMSDN.v1.en/ExSDKOtherRef/html/5829149e-7bfe-4820-bcc6-910e9264acc9.htm">caminho</a>nas classes derivadas, em seguida, só pode ter uma única propriedade que é a conformidade com o único elemento de <b>caminho</b> .</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AppendToItemFieldType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AppendToItemFieldType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AppendToItemFieldType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.AppendToItemFieldType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.AppendToItemFieldType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item1">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemType Item1 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemType Item1" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AppendToItemFieldType.Item1" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item1 As ItemType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemType ^ Item1 { ExchangeWebServices::ItemType ^ get(); void set(ExchangeWebServices::ItemType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Message", typeof(ExchangeWebServices.MessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingMessage", typeof(ExchangeWebServices.MeetingMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingRequest", typeof(ExchangeWebServices.MeetingRequestMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("DistributionList", typeof(ExchangeWebServices.DistributionListType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Item", typeof(ExchangeWebServices.ItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CalendarItem", typeof(ExchangeWebServices.CalendarItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingCancellation", typeof(ExchangeWebServices.MeetingCancellationMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Contact", typeof(ExchangeWebServices.ContactItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingResponse", typeof(ExchangeWebServices.MeetingResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("PostItem", typeof(ExchangeWebServices.PostItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Task", typeof(ExchangeWebServices.TaskType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.AppendToItemFieldType.Item1" /> propriedade obtém ou define um item no armazenamento do Exchange.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>É importante observar que a classe ItemType é a classe base para as classes TaskType, CalendarItemType, ContactItemType, DistributionListType e MessageType.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,180 @@
+<Type Name="TimeZoneDefinitionType" FullName="ExchangeWebServices.TimeZoneDefinitionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d5b3f9dd868e9e72d0089bbe26c470133deaca34" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20601814" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class TimeZoneDefinitionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TimeZoneDefinitionType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TimeZoneDefinitionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TimeZoneDefinitionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TimeZoneDefinitionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.TimeZoneDefinitionType" /> classe especifica os períodos e transições que definem um fuso horário.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TimeZoneDefinitionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TimeZoneDefinitionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TimeZoneDefinitionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.TimeZoneDefinitionType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.TimeZoneDefinitionType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TimeZoneDefinitionType.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.TimeZoneDefinitionType.Id" /> propriedade obtém ou define o identificador exclusivo da definição de fuso horário.</summary>
+        <value>O valor do <see cref="P:ExchangeWebServices.TimeZoneDefinitionType.Id" /> propriedade é uma string que representa o identificador exclusivo da definição de fuso horário.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TimeZoneDefinitionType.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.TimeZoneDefinitionType.Name" /> propriedade obtém ou define o nome descritivo da definição de fuso horário.</summary>
+        <value>O valor do <see cref="P:ExchangeWebServices.TimeZoneDefinitionType.Name" /> propriedade é uma cadeia de caracteres que representa o nome da definição de fuso horário.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Periods">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PeriodType[] Periods { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PeriodType[] Periods" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TimeZoneDefinitionType.Periods" />
+      <MemberSignature Language="VB.NET" Value="Public Property Periods As PeriodType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PeriodType ^&gt; ^ Periods { cli::array &lt;ExchangeWebServices::PeriodType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PeriodType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Period", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PeriodType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.TimeZoneDefinitionType.Periods" /> propriedade obtém ou define a matriz de períodos que definem o fuso horário.</summary>
+        <value>O valor do <see cref="P:ExchangeWebServices.TimeZoneDefinitionType.Periods" /> propriedade é uma matriz de <see cref="T:ExchangeWebServices.PeriodType" /> objetos.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Transitions">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ArrayOfTransitionsType Transitions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ArrayOfTransitionsType Transitions" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TimeZoneDefinitionType.Transitions" />
+      <MemberSignature Language="VB.NET" Value="Public Property Transitions As ArrayOfTransitionsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ArrayOfTransitionsType ^ Transitions { ExchangeWebServices::ArrayOfTransitionsType ^ get(); void set(ExchangeWebServices::ArrayOfTransitionsType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ArrayOfTransitionsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.TimeZoneDefinitionType.Transitions" /> propriedade obtém ou define a matriz de transições que definem o fuso horário.</summary>
+        <value>O valor do <see cref="P:ExchangeWebServices.TimeZoneDefinitionType.Transitions" /> propriedade é uma <see cref="T:ExchangeWebServices.ArrayOfTransitionsType" /> objeto que contém as transições que definem o fuso horário.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransitionsGroups">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ArrayOfTransitionsType[] TransitionsGroups { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ArrayOfTransitionsType[] TransitionsGroups" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TimeZoneDefinitionType.TransitionsGroups" />
+      <MemberSignature Language="VB.NET" Value="Public Property TransitionsGroups As ArrayOfTransitionsType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ArrayOfTransitionsType ^&gt; ^ TransitionsGroups { cli::array &lt;ExchangeWebServices::ArrayOfTransitionsType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ArrayOfTransitionsType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("TransitionsGroup", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ArrayOfTransitionsType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.TimeZoneDefinitionType.TransitionsGroups" /> propriedade obtém ou define a matriz de fuso horário transições grupos que definem o fuso horário.</summary>
+        <value>O valor do <see cref="P:ExchangeWebServices.TimeZoneDefinitionType.TransitionsGroups" /> propriedade é uma <see cref="T:ExchangeWebServices.ArrayOfTransitionsType" /> objeto.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,1609 @@
+<Type Name="MeetingRequestMessageType" FullName="ExchangeWebServices.MeetingRequestMessageType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0ebd3dd66b691032e9c68d4f05a51c5c0291d962" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600521" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MeetingRequestMessageType : ExchangeWebServices.MeetingMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MeetingRequestMessageType extends ExchangeWebServices.MeetingMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MeetingRequestMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class MeetingRequestMessageType&#xA;Inherits MeetingMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MeetingRequestMessageType : ExchangeWebServices::MeetingMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.MeetingMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe representa uma solicitação de reunião no armazenamento do Exchange.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MeetingRequestMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MeetingRequestMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MeetingRequestMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdjacentMeetingCount">
+      <MemberSignature Language="C#" Value="public int AdjacentMeetingCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AdjacentMeetingCount" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.AdjacentMeetingCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdjacentMeetingCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AdjacentMeetingCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AdjacentMeetingCount" /> propriedade obtém ou define o número de itens de calendário que sejam adjacentes um horário de reunião.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AdjacentMeetingCount" /> propriedade retorna o número de itens de calendário que sejam adjacentes um horário de reunião.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdjacentMeetingCountSpecified">
+      <MemberSignature Language="C#" Value="public bool AdjacentMeetingCountSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AdjacentMeetingCountSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.AdjacentMeetingCountSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdjacentMeetingCountSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AdjacentMeetingCountSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AdjacentMeetingCountSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AdjacentMeetingCount" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AdjacentMeetingCount" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AdjacentMeetingCountSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AdjacentMeetingCount" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdjacentMeetings">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.NonEmptyArrayOfAllItemsType AdjacentMeetings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.NonEmptyArrayOfAllItemsType AdjacentMeetings" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.AdjacentMeetings" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdjacentMeetings As NonEmptyArrayOfAllItemsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::NonEmptyArrayOfAllItemsType ^ AdjacentMeetings { ExchangeWebServices::NonEmptyArrayOfAllItemsType ^ get(); void set(ExchangeWebServices::NonEmptyArrayOfAllItemsType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.NonEmptyArrayOfAllItemsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AdjacentMeetings" /> propriedade obtém ou define todos os itens de calendário que são adjacentes para um horário de reunião.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AdjacentMeetings" /> propriedade retorna os itens do calendário que sejam adjacentes um horário de reunião.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowNewTimeProposal">
+      <MemberSignature Language="C#" Value="public bool AllowNewTimeProposal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowNewTimeProposal" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.AllowNewTimeProposal" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowNewTimeProposal As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowNewTimeProposal { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AllowNewTimeProposal" /> propriedade obtém ou define um valor Boolean que indica se um novo tempo pode ser proposto para uma reunião.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AllowNewTimeProposal" /> propriedade retorna <b>true</b> se um novo tempo pode ser proposto para uma reunião; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowNewTimeProposalSpecified">
+      <MemberSignature Language="C#" Value="public bool AllowNewTimeProposalSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowNewTimeProposalSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.AllowNewTimeProposalSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowNewTimeProposalSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowNewTimeProposalSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AllowNewTimeProposalSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AllowNewTimeProposal" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AllowNewTimeProposal" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AllowNewTimeProposalSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AllowNewTimeProposal" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentReplyTime">
+      <MemberSignature Language="C#" Value="public DateTime AppointmentReplyTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime AppointmentReplyTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentReplyTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property AppointmentReplyTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime AppointmentReplyTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentReplyTime" /> propriedade obtém ou define a data e hora em que um participante respondeu a uma solicitação de reunião.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentReplyTime" /> propriedade retornará a data e hora em que um participante respondeu a uma solicitação de reunião.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentReplyTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool AppointmentReplyTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AppointmentReplyTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentReplyTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AppointmentReplyTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AppointmentReplyTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentReplyTimeSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentReplyTime" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentReplyTime" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentReplyTimeSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentReplyTime" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentSequenceNumber">
+      <MemberSignature Language="C#" Value="public int AppointmentSequenceNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AppointmentSequenceNumber" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentSequenceNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property AppointmentSequenceNumber As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AppointmentSequenceNumber { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentSequenceNumber" /> propriedade obtém ou define o número de sequência de uma versão de um compromisso.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentSequenceNumber" /> propriedade retorna o número de sequência de uma versão de um compromisso.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentSequenceNumberSpecified">
+      <MemberSignature Language="C#" Value="public bool AppointmentSequenceNumberSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AppointmentSequenceNumberSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentSequenceNumberSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AppointmentSequenceNumberSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AppointmentSequenceNumberSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentSequenceNumberSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentSequenceNumber" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentSequenceNumber" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentSequenceNumberSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentSequenceNumber" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentState">
+      <MemberSignature Language="C#" Value="public int AppointmentState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AppointmentState" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentState" />
+      <MemberSignature Language="VB.NET" Value="Public Property AppointmentState As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AppointmentState { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentState" /> propriedade obtém ou define o status de um compromisso.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentState" /> propriedade retorna o status de um compromisso.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentStateSpecified">
+      <MemberSignature Language="C#" Value="public bool AppointmentStateSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AppointmentStateSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentStateSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AppointmentStateSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AppointmentStateSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentStateSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentState" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentState" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentStateSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.AppointmentState" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalendarItemType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CalendarItemTypeType CalendarItemType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.CalendarItemTypeType CalendarItemType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.CalendarItemType" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalendarItemType As CalendarItemTypeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::CalendarItemTypeType CalendarItemType { ExchangeWebServices::CalendarItemTypeType get(); void set(ExchangeWebServices::CalendarItemTypeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemTypeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.CalendarItemType" /> propriedade obtém ou define a configuração de recorrência de um item de calendário.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.CalendarItemType" /> propriedade retorna uma do <see cref="T:ExchangeWebServices.CalendarItemTypeType" /> valores de enumeração.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalendarItemTypeSpecified">
+      <MemberSignature Language="C#" Value="public bool CalendarItemTypeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CalendarItemTypeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.CalendarItemTypeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalendarItemTypeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CalendarItemTypeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.CalendarItemTypeSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.CalendarItemType" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.CalendarItemType" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.CalendarItemTypeSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.CalendarItemType" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeHighlights">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ChangeHighlightsType ChangeHighlights { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ChangeHighlightsType ChangeHighlights" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.ChangeHighlights" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChangeHighlights As ChangeHighlightsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ChangeHighlightsType ^ ChangeHighlights { ExchangeWebServices::ChangeHighlightsType ^ get(); void set(ExchangeWebServices::ChangeHighlightsType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ChangeHighlightsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceType">
+      <MemberSignature Language="C#" Value="public int ConferenceType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ConferenceType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.ConferenceType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConferenceType As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ConferenceType { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConferenceType" /> propriedade obtém ou define um valor integer que especifica o tipo de conferência que é executada com a reunião.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConferenceType" /> propriedade retornará um valor integer que especifica o tipo de conferência que é executada com a reunião. A tabela a seguir contém os valores possíveis para o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConferenceType" /> propriedade. ValueDescription0NetMeeting1NetShow2Chat</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceTypeSpecified">
+      <MemberSignature Language="C#" Value="public bool ConferenceTypeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ConferenceTypeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.ConferenceTypeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConferenceTypeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ConferenceTypeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConferenceTypeSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConferenceType" /> propriedade é serializada na solicitação SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConferenceType" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConferenceTypeSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConferenceType" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConflictingMeetingCount">
+      <MemberSignature Language="C#" Value="public int ConflictingMeetingCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ConflictingMeetingCount" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.ConflictingMeetingCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConflictingMeetingCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ConflictingMeetingCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConflictingMeetingCount" /> propriedade obtém ou define um valor integer que especifica o número de reuniões que estão em conflito com a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConflictingMeetingCount" /> propriedade retornará um valor integer que especifica o número de reuniões que estão em conflito com a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConflictingMeetingCountSpecified">
+      <MemberSignature Language="C#" Value="public bool ConflictingMeetingCountSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ConflictingMeetingCountSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.ConflictingMeetingCountSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConflictingMeetingCountSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ConflictingMeetingCountSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConflictingMeetingCountSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConflictingMeetingCount" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConflictingMeetingCount" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConflictingMeetingCountSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConflictingMeetingCount" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConflictingMeetings">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.NonEmptyArrayOfAllItemsType ConflictingMeetings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.NonEmptyArrayOfAllItemsType ConflictingMeetings" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.ConflictingMeetings" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConflictingMeetings As NonEmptyArrayOfAllItemsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::NonEmptyArrayOfAllItemsType ^ ConflictingMeetings { ExchangeWebServices::NonEmptyArrayOfAllItemsType ^ get(); void set(ExchangeWebServices::NonEmptyArrayOfAllItemsType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.NonEmptyArrayOfAllItemsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConflictingMeetings" /> propriedade obtém ou define uma instância do <see cref="T:ExchangeWebServices.NonEmptyArrayOfAllItemsType" /> que representa todos os itens que estão em conflito com o tempo de reunião que está associado essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ConflictingMeetings" /> propriedade retorna uma instância do <see cref="T:ExchangeWebServices.NonEmptyArrayOfAllItemsType" /> que representa todos os itens que estão em conflito com o tempo de reunião que está associado essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletedOccurrences">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DeletedOccurrenceInfoType[] DeletedOccurrences { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.DeletedOccurrenceInfoType[] DeletedOccurrences" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.DeletedOccurrences" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeletedOccurrences As DeletedOccurrenceInfoType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::DeletedOccurrenceInfoType ^&gt; ^ DeletedOccurrences { cli::array &lt;ExchangeWebServices::DeletedOccurrenceInfoType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::DeletedOccurrenceInfoType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DeletedOccurrence", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DeletedOccurrenceInfoType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.DeletedOccurrences" /> propriedade obtém ou define uma matriz do tipo <see cref="T:ExchangeWebServices.DeletedOccurrenceInfoType" /> que representa as ocorrências excluídas de uma reunião recorrente.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.DeletedOccurrences" /> propriedade retorna uma matriz do tipo <see cref="T:ExchangeWebServices.DeletedOccurrenceInfoType" /> que representa as ocorrências excluídas de uma reunião recorrente.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public string Duration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Duration" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public Property Duration As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Duration { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Duration" /> propriedade obtém ou define um valor string que especifica a duração da reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Duration" /> propriedade retorna um valor string que especifica a duração da reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public DateTime End { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime End" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.End" />
+      <MemberSignature Language="VB.NET" Value="Public Property End As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime End { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.End" /> propriedade obtém ou define uma instância da classe DateTime que especifica o fim da duração para uma única ocorrência de uma solicitação de reunião.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.End" /> propriedade retorna uma instância da classe DateTime que especifica o fim da duração para uma única ocorrência de uma solicitação de reunião.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSpecified">
+      <MemberSignature Language="C#" Value="public bool EndSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EndSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.EndSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EndSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.EndSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.End" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.End" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.EndSpecified" /> retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.End" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTimeZone">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TimeZoneDefinitionType EndTimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TimeZoneDefinitionType EndTimeZone" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.EndTimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTimeZone As TimeZoneDefinitionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TimeZoneDefinitionType ^ EndTimeZone { ExchangeWebServices::TimeZoneDefinitionType ^ get(); void set(ExchangeWebServices::TimeZoneDefinitionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TimeZoneDefinitionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Retorna <see cref="T:ExchangeWebServices.TimeZoneDefinitionType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTimeZoneId">
+      <MemberSignature Language="C#" Value="public string EndTimeZoneId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EndTimeZoneId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.EndTimeZoneId" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTimeZoneId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EndTimeZoneId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndWallClock">
+      <MemberSignature Language="C#" Value="public DateTime EndWallClock { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndWallClock" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.EndWallClock" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndWallClock As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime EndWallClock { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndWallClockSpecified">
+      <MemberSignature Language="C#" Value="public bool EndWallClockSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EndWallClockSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.EndWallClockSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndWallClockSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EndWallClockSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnhancedLocation">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EnhancedLocationType EnhancedLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EnhancedLocationType EnhancedLocation" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.EnhancedLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnhancedLocation As EnhancedLocationType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EnhancedLocationType ^ EnhancedLocation { ExchangeWebServices::EnhancedLocationType ^ get(); void set(ExchangeWebServices::EnhancedLocationType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EnhancedLocationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstOccurrence">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.OccurrenceInfoType FirstOccurrence { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.OccurrenceInfoType FirstOccurrence" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.FirstOccurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirstOccurrence As OccurrenceInfoType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::OccurrenceInfoType ^ FirstOccurrence { ExchangeWebServices::OccurrenceInfoType ^ get(); void set(ExchangeWebServices::OccurrenceInfoType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.OccurrenceInfoType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.FirstOccurrence" /> propriedade obtém ou define uma instância do <see cref="T:ExchangeWebServices.OccurrenceInfoType" /> que representa a primeira ocorrência da reunião que está associada essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.FirstOccurrence" /> propriedade retorna uma instância do <see cref="T:ExchangeWebServices.OccurrenceInfoType" /> que representa a primeira ocorrência da reunião que está associada essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>
+          <para>Esta propriedade é válida se a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe é recorrente.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntendedFreeBusyStatus">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.LegacyFreeBusyType IntendedFreeBusyStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.LegacyFreeBusyType IntendedFreeBusyStatus" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.IntendedFreeBusyStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property IntendedFreeBusyStatus As LegacyFreeBusyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::LegacyFreeBusyType IntendedFreeBusyStatus { ExchangeWebServices::LegacyFreeBusyType get(); void set(ExchangeWebServices::LegacyFreeBusyType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.LegacyFreeBusyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IntendedFreeBusyStatus" /> propriedade obtém ou define uma instância do <see cref="T:ExchangeWebServices.LegacyFreeBusyType" /> que representa o status desejado para o item de calendário que está associado essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IntendedFreeBusyStatus" /> propriedade retorna uma instância do <see cref="T:ExchangeWebServices.LegacyFreeBusyType" /> que representa o status desejado para o item de calendário que está associado essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntendedFreeBusyStatusSpecified">
+      <MemberSignature Language="C#" Value="public bool IntendedFreeBusyStatusSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IntendedFreeBusyStatusSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.IntendedFreeBusyStatusSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IntendedFreeBusyStatusSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IntendedFreeBusyStatusSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IntendedFreeBusyStatusSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IntendedFreeBusyStatus" /> propriedade é serializada em protocolo SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IntendedFreeBusyStatus" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IntendedFreeBusyStatusSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IntendedFreeBusyStatus" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAllDayEvent">
+      <MemberSignature Language="C#" Value="public bool IsAllDayEvent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAllDayEvent" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.IsAllDayEvent" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAllDayEvent As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAllDayEvent { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsAllDayEvent" /> propriedade obtém ou define um valor Boolean que especifica se a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe é um evento de dia inteiro.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsAllDayEvent" /> propriedade retorna <b>true</b> se a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe é um evento de dia inteiro; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAllDayEventSpecified">
+      <MemberSignature Language="C#" Value="public bool IsAllDayEventSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAllDayEventSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.IsAllDayEventSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAllDayEventSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAllDayEventSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsAllDayEventSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsAllDayEvent" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsAllDayEvent" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsAllDayEventSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsAllDayEvent" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCancelled">
+      <MemberSignature Language="C#" Value="public bool IsCancelled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCancelled" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.IsCancelled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsCancelled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCancelled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsCancelled" /> propriedade obtém ou define um valor Boolean que indica se a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe será cancelado.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsCancelled" /> propriedade retorna <b>true</b> se a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe será cancelado; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCancelledSpecified">
+      <MemberSignature Language="C#" Value="public bool IsCancelledSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCancelledSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.IsCancelledSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsCancelledSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCancelledSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsCancelledSpecified" /> propriedade obtém ou define um valor Boolean que indica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsCancelled" /> propriedade é serializada na solicitação SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsCancelled" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsCancelledSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsCancelled" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeeting">
+      <MemberSignature Language="C#" Value="public bool IsMeeting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMeeting" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.IsMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMeeting As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMeeting { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsMeeting" /> propriedade obtém ou define um valor Boolean que especifica se o item do calendário que está associado a esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe é uma reunião.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsMeeting" /> propriedade retorna <b>true</b> se o calendário do item que é associado a esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe é uma reunião; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeetingSpecified">
+      <MemberSignature Language="C#" Value="public bool IsMeetingSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMeetingSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.IsMeetingSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMeetingSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMeetingSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsMeetingSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsMeeting" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsMeeting" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsMeetingSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsMeeting" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOnlineMeeting">
+      <MemberSignature Language="C#" Value="public bool IsOnlineMeeting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOnlineMeeting" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.IsOnlineMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOnlineMeeting As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOnlineMeeting { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsOnlineMeeting" /> propriedade obtém ou define um valor Boolean que especifica se a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe é uma reunião online.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsOnlineMeeting" /> propriedade retorna <b>true</b> se a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe é uma reunião online; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOnlineMeetingSpecified">
+      <MemberSignature Language="C#" Value="public bool IsOnlineMeetingSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOnlineMeetingSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.IsOnlineMeetingSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOnlineMeetingSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOnlineMeetingSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsOnlineMeetingSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsOnlineMeeting" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsOnlineMeeting" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsOnlineMeetingSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsOnlineMeeting" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRecurring">
+      <MemberSignature Language="C#" Value="public bool IsRecurring { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRecurring" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.IsRecurring" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRecurring As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRecurring { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsRecurring" /> propriedade obtém ou define um valor Boolean que especifica se a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe é uma reunião recorrente.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsRecurring" /> propriedade retorna <b>true</b> se a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe é uma reunião recorrente, Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRecurringSpecified">
+      <MemberSignature Language="C#" Value="public bool IsRecurringSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRecurringSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.IsRecurringSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRecurringSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRecurringSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsRecurringSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsRecurring" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsRecurring" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsRecurringSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsRecurring" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastOccurrence">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.OccurrenceInfoType LastOccurrence { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.OccurrenceInfoType LastOccurrence" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.LastOccurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastOccurrence As OccurrenceInfoType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::OccurrenceInfoType ^ LastOccurrence { ExchangeWebServices::OccurrenceInfoType ^ get(); void set(ExchangeWebServices::OccurrenceInfoType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.OccurrenceInfoType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.LastOccurrence" /> propriedade obtém ou define uma instância do <see cref="T:ExchangeWebServices.OccurrenceInfoType" /> que representa a última ocorrência da reunião que está associada essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.LastOccurrence" /> propriedade retorna uma instância do <see cref="T:ExchangeWebServices.OccurrenceInfoType" /> que representa a última ocorrência da reunião que está associada essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LegacyFreeBusyStatus">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.LegacyFreeBusyType LegacyFreeBusyStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.LegacyFreeBusyType LegacyFreeBusyStatus" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.LegacyFreeBusyStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property LegacyFreeBusyStatus As LegacyFreeBusyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::LegacyFreeBusyType LegacyFreeBusyStatus { ExchangeWebServices::LegacyFreeBusyType get(); void set(ExchangeWebServices::LegacyFreeBusyType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.LegacyFreeBusyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.LegacyFreeBusyStatus" /> propriedade obtém ou define uma instância do <see cref="T:ExchangeWebServices.LegacyFreeBusyType" /> que especifica o status livre/ocupado da reunião que está associado essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.LegacyFreeBusyStatus" /> propriedade retorna uma instância do <see cref="T:ExchangeWebServices.LegacyFreeBusyType" /> que especifica o status livre/ocupado da reunião que está associado essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LegacyFreeBusyStatusSpecified">
+      <MemberSignature Language="C#" Value="public bool LegacyFreeBusyStatusSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LegacyFreeBusyStatusSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.LegacyFreeBusyStatusSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property LegacyFreeBusyStatusSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LegacyFreeBusyStatusSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.LegacyFreeBusyStatusSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.LegacyFreeBusyStatus" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.LegacyFreeBusyStatus" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.LegacyFreeBusyStatusSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.LegacyFreeBusyStatus" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Location" /> propriedade obtém ou define um valor string que especifica o local da reunião que está associado esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Location" /> propriedade retorna um valor string que especifica o local da reunião que está associado esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingRequestType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MeetingRequestTypeType MeetingRequestType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.MeetingRequestTypeType MeetingRequestType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestType" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeetingRequestType As MeetingRequestTypeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::MeetingRequestTypeType MeetingRequestType { ExchangeWebServices::MeetingRequestTypeType get(); void set(ExchangeWebServices::MeetingRequestTypeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingRequestTypeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestType" /> propriedade obtém ou define uma instância do <see cref="T:ExchangeWebServices.MeetingRequestTypeType" /> que especifica o tipo de solicitação de reunião que é representado por esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestType" /> propriedade retorna uma instância do <see cref="T:ExchangeWebServices.MeetingRequestTypeType" /> que especifica o tipo de solicitação de reunião que é representado por esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingRequestTypeSpecified">
+      <MemberSignature Language="C#" Value="public bool MeetingRequestTypeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MeetingRequestTypeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestTypeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeetingRequestTypeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MeetingRequestTypeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestTypeSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestType" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestType" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestTypeSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestType" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingRequestWasSent">
+      <MemberSignature Language="C#" Value="public bool MeetingRequestWasSent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MeetingRequestWasSent" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestWasSent" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeetingRequestWasSent As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MeetingRequestWasSent { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestWasSent" /> propriedade obtém ou define um valor Boolean que especifica se a solicitação de reunião que é representado por esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe foi enviada para os participantes solicitados.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestWasSent" /> propriedade retorna <b>true</b> se a solicitação de reunião que é representado por esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe foi enviada para os participantes solicitados; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingRequestWasSentSpecified">
+      <MemberSignature Language="C#" Value="public bool MeetingRequestWasSentSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MeetingRequestWasSentSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestWasSentSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeetingRequestWasSentSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MeetingRequestWasSentSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestWasSentSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestWasSent" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestWasSent" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestWasSentSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingRequestWasSent" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingTimeZone">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TimeZoneType MeetingTimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TimeZoneType MeetingTimeZone" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.MeetingTimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeetingTimeZone As TimeZoneType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TimeZoneType ^ MeetingTimeZone { ExchangeWebServices::TimeZoneType ^ get(); void set(ExchangeWebServices::TimeZoneType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TimeZoneType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingTimeZone" /> propriedade obtém ou define uma instância do <see cref="T:ExchangeWebServices.TimeZoneType" /> que representa o fuso horário do local da reunião que está associado essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingTimeZone" /> propriedade retorna uma instância do <see cref="T:ExchangeWebServices.TimeZoneType" /> que representa o fuso horário do local da reunião que está associado essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingWorkspaceUrl">
+      <MemberSignature Language="C#" Value="public string MeetingWorkspaceUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MeetingWorkspaceUrl" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.MeetingWorkspaceUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeetingWorkspaceUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MeetingWorkspaceUrl { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingWorkspaceUrl" /> propriedade obtém ou define um valor string que contém a URL para o espaço de trabalho de reunião que a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> links para de classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MeetingWorkspaceUrl" /> propriedade retorna um valor string que contém a URL para o espaço de trabalho de reunião que a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe links para.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedOccurrences">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.OccurrenceInfoType[] ModifiedOccurrences { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.OccurrenceInfoType[] ModifiedOccurrences" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.ModifiedOccurrences" />
+      <MemberSignature Language="VB.NET" Value="Public Property ModifiedOccurrences As OccurrenceInfoType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::OccurrenceInfoType ^&gt; ^ ModifiedOccurrences { cli::array &lt;ExchangeWebServices::OccurrenceInfoType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::OccurrenceInfoType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Occurrence", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.OccurrenceInfoType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ModifiedOccurrences" /> propriedade obtém ou define uma matriz que contém os elementos do tipo <see cref="T:ExchangeWebServices.OccurrenceInfoType" /> que representam ocorrências de item de calendário que foram modificadas para que eles diferem do mestre de recorrência de item que é associado a esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ModifiedOccurrences" /> propriedade retorna uma matriz que contém os elementos do tipo <see cref="T:ExchangeWebServices.OccurrenceInfoType" /> que representam ocorrências de item de calendário que foram modificadas para que eles diferem do mestre de recorrência de item que é associado a esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>
+          <para>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.ModifiedOccurrences" /> propriedade é válida se as <see cref="P:ExchangeWebServices.MeetingRequestMessageType.CalendarItemType" /> propriedade estiver definida como o <see cref="F:ExchangeWebServices.CalendarItemTypeType.RecurringMaster" /> o valor de enumeração.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyResponseType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseTypeType MyResponseType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ResponseTypeType MyResponseType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.MyResponseType" />
+      <MemberSignature Language="VB.NET" Value="Public Property MyResponseType As ResponseTypeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ResponseTypeType MyResponseType { ExchangeWebServices::ResponseTypeType get(); void set(ExchangeWebServices::ResponseTypeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseTypeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MyResponseType" /> propriedade obtém ou define uma do válido <see cref="T:ExchangeWebServices.ResponseTypeType" /> valores de enumeração que representam os status dos ou a resposta à solicitação de reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MyResponseType" /> propriedade retorna uma do válido <see cref="T:ExchangeWebServices.ResponseTypeType" /> valores de enumeração que representam os status dos ou a resposta à solicitação de reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyResponseTypeSpecified">
+      <MemberSignature Language="C#" Value="public bool MyResponseTypeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MyResponseTypeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.MyResponseTypeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MyResponseTypeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MyResponseTypeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MyResponseTypeSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MyResponseType" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MyResponseType" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MyResponseTypeSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MyResponseType" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetShowUrl">
+      <MemberSignature Language="C#" Value="public string NetShowUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NetShowUrl" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.NetShowUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetShowUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NetShowUrl { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.NetShowUrl" /> propriedade obtém ou define um valor string que contém a URL para a reunião online do Microsoft NetShow referentes à reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.NetShowUrl" /> propriedade retorna um valor string que contém a URL para a reunião online do NetShow referentes à reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptionalAttendees">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AttendeeType[] OptionalAttendees { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AttendeeType[] OptionalAttendees" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.OptionalAttendees" />
+      <MemberSignature Language="VB.NET" Value="Public Property OptionalAttendees As AttendeeType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::AttendeeType ^&gt; ^ OptionalAttendees { cli::array &lt;ExchangeWebServices::AttendeeType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::AttendeeType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Attendee", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AttendeeType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.OptionalAttendees" /> propriedade obtém ou define uma matriz que contém os elementos do tipo <see cref="T:ExchangeWebServices.AttendeeType" /> que representa os participantes que não são necessárias para participar da reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.OptionalAttendees" /> propriedade retorna uma matriz que contém os elementos do tipo <see cref="T:ExchangeWebServices.AttendeeType" /> que representa os participantes que não são necessárias para participar da reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Organizer">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SingleRecipientType Organizer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SingleRecipientType Organizer" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.Organizer" />
+      <MemberSignature Language="VB.NET" Value="Public Property Organizer As SingleRecipientType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SingleRecipientType ^ Organizer { ExchangeWebServices::SingleRecipientType ^ get(); void set(ExchangeWebServices::SingleRecipientType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SingleRecipientType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Organizer" /> propriedade obtém ou define uma instância do <see cref="T:ExchangeWebServices.SingleRecipientType" /> que representa o organizador da reunião que está associado essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Organizer" /> propriedade retorna uma instância do <see cref="T:ExchangeWebServices.SingleRecipientType" /> que representa o organizador da reunião que está associado essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OriginalStart">
+      <MemberSignature Language="C#" Value="public DateTime OriginalStart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime OriginalStart" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.OriginalStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property OriginalStart As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime OriginalStart { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.OriginalStart" /> propriedade obtém ou define uma instância da classe DateTime que especifica o original hora de início para a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.OriginalStart" /> propriedade retorna uma instância da classe DateTime que especifica o original hora de início para a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OriginalStartSpecified">
+      <MemberSignature Language="C#" Value="public bool OriginalStartSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OriginalStartSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.OriginalStartSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property OriginalStartSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OriginalStartSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.OriginalStartSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.OriginalStart" /> é serializar a propriedade na mensagem SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.OriginalStart" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.OriginalStartSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.OriginalStart" /> é serializar a propriedade na mensagem SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recurrence">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RecurrenceType Recurrence { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RecurrenceType Recurrence" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.Recurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Property Recurrence As RecurrenceType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RecurrenceType ^ Recurrence { ExchangeWebServices::RecurrenceType ^ get(); void set(ExchangeWebServices::RecurrenceType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RecurrenceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Recurrence" /> propriedade obtém ou define uma instância do <see cref="T:ExchangeWebServices.RecurrenceType" /> que especifica o padrão de recorrência da reunião que está associado essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Recurrence" /> propriedade retorna uma instância do <see cref="T:ExchangeWebServices.RecurrenceType" /> que especifica o padrão de recorrência da reunião que está associado essa instância da classe a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequiredAttendees">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AttendeeType[] RequiredAttendees { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AttendeeType[] RequiredAttendees" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.RequiredAttendees" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequiredAttendees As AttendeeType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::AttendeeType ^&gt; ^ RequiredAttendees { cli::array &lt;ExchangeWebServices::AttendeeType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::AttendeeType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Attendee", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AttendeeType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.RequiredAttendees" /> propriedade obtém ou define uma matriz que contém os elementos do tipo <see cref="T:ExchangeWebServices.AttendeeType" /> que representa os participantes necessários para participar da reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.RequiredAttendees" /> propriedade retorna uma matriz que contém os elementos do tipo <see cref="T:ExchangeWebServices.AttendeeType" /> que representa os participantes necessários para participar da reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resources">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AttendeeType[] Resources { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AttendeeType[] Resources" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.Resources" />
+      <MemberSignature Language="VB.NET" Value="Public Property Resources As AttendeeType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::AttendeeType ^&gt; ^ Resources { cli::array &lt;ExchangeWebServices::AttendeeType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::AttendeeType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Attendee", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AttendeeType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Resources" /> propriedade obtém ou define uma matriz que contém os elementos do tipo <see cref="T:ExchangeWebServices.AttendeeType" /> que representa os recursos agendados para a reunião que está associado esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Resources" /> propriedade retorna uma matriz que contém os elementos do tipo <see cref="T:ExchangeWebServices.AttendeeType" /> que representa os recursos agendados para a reunião que está associado esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public DateTime Start { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Start" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Property Start As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Start { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Start" /> propriedade obtém ou define uma instância da classe DateTime que representa o início da reunião que está associado esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Start" /> propriedade retorna uma instância da classe DateTime que representa o início da reunião que está associado esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>
+          <para>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Start" /> propriedade só será válida se as <see cref="P:ExchangeWebServices.MeetingRequestMessageType.IsRecurring" /> propriedade estiver definida como <b>false</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartSpecified">
+      <MemberSignature Language="C#" Value="public bool StartSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool StartSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.StartSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool StartSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.StartSpecified" /> propriedade obtém ou define um valor Boolean que especifica se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Start" /> propriedade é serializada na resposta SOAP. Essa propriedade é obrigatória se a <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Start" /> propriedade for especificada.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.StartSpecified" /> propriedade retorna <b>true</b> se o <see cref="P:ExchangeWebServices.MeetingRequestMessageType.Start" /> é serializar a propriedade na resposta SOAP; Caso contrário, a propriedade retornará <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTimeZone">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TimeZoneDefinitionType StartTimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TimeZoneDefinitionType StartTimeZone" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.StartTimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartTimeZone As TimeZoneDefinitionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TimeZoneDefinitionType ^ StartTimeZone { ExchangeWebServices::TimeZoneDefinitionType ^ get(); void set(ExchangeWebServices::TimeZoneDefinitionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TimeZoneDefinitionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Retorna <see cref="T:ExchangeWebServices.TimeZoneDefinitionType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTimeZoneId">
+      <MemberSignature Language="C#" Value="public string StartTimeZoneId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StartTimeZoneId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.StartTimeZoneId" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartTimeZoneId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StartTimeZoneId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartWallClock">
+      <MemberSignature Language="C#" Value="public DateTime StartWallClock { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartWallClock" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.StartWallClock" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartWallClock As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartWallClock { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartWallClockSpecified">
+      <MemberSignature Language="C#" Value="public bool StartWallClockSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool StartWallClockSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.StartWallClockSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartWallClockSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool StartWallClockSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZone">
+      <MemberSignature Language="C#" Value="public string TimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TimeZone" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.TimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeZone As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TimeZone { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.TimeZone" /> propriedade obtém ou define um valor string que especifica uma descrição de texto do fuso horário para a reunião que está associado esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.TimeZone" /> propriedade retorna um valor string que especifica uma descrição de texto do fuso horário para a reunião que está associado esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="When">
+      <MemberSignature Language="C#" Value="public string When { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string When" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingRequestMessageType.When" />
+      <MemberSignature Language="VB.NET" Value="Public Property When As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ When { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.When" /> propriedade obtém ou define um valor string que especifica uma descrição de texto de quando a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe ocorre.</summary>
+        <value>O <see cref="P:ExchangeWebServices.MeetingRequestMessageType.When" /> propriedade retorna um valor string que especifica uma descrição de texto de quando a reunião que está associada esta instância do <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> classe ocorre.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,114 @@
+<Type Name="CreateManagedFolderRequestType" FullName="ExchangeWebServices.CreateManagedFolderRequestType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a1b88227f4363e3000fcf457328b3dc7721618a7" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600419" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CreateManagedFolderRequestType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CreateManagedFolderRequestType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CreateManagedFolderRequestType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CreateManagedFolderRequestType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateManagedFolderRequestType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> classe representa uma solicitação para adicionar uma pasta gerenciada para uma caixa de correio.</summary>
+    <remarks>
+      <para>Pastas gerenciadas são criadas no computador que está executando o Microsoft Exchange Server 2007. Para adicionar pastas personalizadas gerenciadas de maneira programática a uma caixa de correio, use o <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> classe. Você só pode adicionar pastas gerenciadas se já tiver sido definida a uma pasta gerenciada usando o Console de gerenciamento do Exchange ou o Shell de gerenciamento do Exchange. A operação CreateManagedFolder cria uma instância de uma pasta gerenciada com base em um modelo de pasta gerenciada que já existe no serviço de diretório do Active Directory.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>Para obter um exemplo de como usar o <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> classe, consulte Adicionando pastas gerenciadas. Para obter um exemplo completo que mostra como implementar as pastas gerenciadas de um aplicativo, consulte <a href="http://go.microsoft.com/fwlink/?LinkID=82742">Amostra de seletor de pasta gerenciada</a></para>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateManagedFolderRequestType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CreateManagedFolderRequestType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CreateManagedFolderRequestType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>O <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderNames">
+      <MemberSignature Language="C#" Value="public string[] FolderNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] FolderNames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CreateManagedFolderRequestType.FolderNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderNames As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ FolderNames { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderName", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.CreateManagedFolderRequestType.FolderNames" /> propriedade obtém ou define uma matriz de pastas gerenciadas para adicionar uma caixa de correio. Essa propriedade é obrigatória. Esta é uma propriedade de leitura/gravação.</summary>
+        <value>O <see cref="P:ExchangeWebServices.CreateManagedFolderRequestType.FolderNames" /> propriedade retorna uma matriz de cadeia de caracteres que contém os nomes das pastas gerenciadas para adicionar uma caixa de correio.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CreateManagedFolderRequestType.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ Mailbox { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>O <see cref="P:ExchangeWebServices.CreateManagedFolderRequestType.Mailbox" /> propriedade obtém ou define o endereço de email da caixa de correio no qual as pastas gerenciadas são adicionadas. Essa propriedade é opcional. Esta é uma propriedade de leitura/gravação.</summary>
+        <value>O <see cref="P:ExchangeWebServices.CreateManagedFolderRequestType.Mailbox" /> propriedade retornará uma <see cref="T:ExchangeWebServices.EmailAddressType" /> objeto.</value>
+        <remarks>
+          <para>Essa propriedade é obrigatória quando você estiver adicionando uma caixa de correio para outra conta enquanto você estiver usando a representação do Exchange.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

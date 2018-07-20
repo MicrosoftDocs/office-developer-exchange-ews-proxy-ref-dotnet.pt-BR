@@ -1,0 +1,96 @@
+<Type Name="ConflictResolutionType" FullName="ExchangeWebServices.ConflictResolutionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8d3b82cb6dd4f8a0d6f314137d4eac53f1d847e7" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20601302" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ConflictResolutionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ConflictResolutionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ConflictResolutionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConflictResolutionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConflictResolutionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O <see cref="T:ExchangeWebServices.ConflictResolutionType" /> enumeração que especifica como um conflito é manipulado durante uma operação UpdateItem.</summary>
+    <remarks>
+      <para>Esta enumeração é usada pelo <see cref="P:ExchangeWebServices.UpdateItemType.ConflictResolution" /> propriedade do <see cref="T:ExchangeWebServices.UpdateItemType" /> objeto. Um conflito ocorre quando um cliente tentar fazer a atualização de uma propriedade que já foi definida.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AlwaysOverwrite">
+      <MemberSignature Language="C#" Value="AlwaysOverwrite" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConflictResolutionType AlwaysOverwrite = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConflictResolutionType.AlwaysOverwrite" />
+      <MemberSignature Language="VB.NET" Value="AlwaysOverwrite" />
+      <MemberSignature Language="C++ CLI" Value="AlwaysOverwrite" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Se houver um conflito, a operação UpdateItem substituirá informações.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoResolve">
+      <MemberSignature Language="C#" Value="AutoResolve" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConflictResolutionType AutoResolve = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConflictResolutionType.AutoResolve" />
+      <MemberSignature Language="VB.NET" Value="AutoResolve" />
+      <MemberSignature Language="C++ CLI" Value="AutoResolve" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>A operação UpdateItem resolve automaticamente qualquer conflito. A opção de resolver automaticamente na maioria dos casos substituirá o valor existente para uma propriedade. Em alguns casos, o novo valor será ignorado e o valor original é mantido. Por exemplo, o usuário A propriedade Sensitivity muda de Normal para confidencial. O usuário B define o valor para o público. Neste exemplo, a configuração confidencial é mantida e a atualização do usuário B é ignorada.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NeverOverwrite">
+      <MemberSignature Language="C#" Value="NeverOverwrite" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConflictResolutionType NeverOverwrite = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConflictResolutionType.NeverOverwrite" />
+      <MemberSignature Language="VB.NET" Value="NeverOverwrite" />
+      <MemberSignature Language="C++ CLI" Value="NeverOverwrite" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Se houver conflito, a operação UpdateItem falhará e um erro será retornado.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
