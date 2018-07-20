@@ -1,0 +1,138 @@
+<Type Name="MovedCopiedEventType" FullName="ExchangeWebServices.MovedCopiedEventType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="84054e9fbe16c39f7dc374009f007641f4d0dee6" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20601483" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MovedCopiedEventType : ExchangeWebServices.BaseObjectChangedEventType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MovedCopiedEventType extends ExchangeWebServices.BaseObjectChangedEventType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MovedCopiedEventType" />
+  <TypeSignature Language="VB.NET" Value="Public Class MovedCopiedEventType&#xA;Inherits BaseObjectChangedEventType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MovedCopiedEventType : ExchangeWebServices::BaseObjectChangedEventType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseObjectChangedEventType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="5d1a4-101">O <see cref="T:ExchangeWebServices.MovedCopiedEventType" /> classe representa uma notificação de evento movida ou copiada.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5d1a4-101">The <see cref="T:ExchangeWebServices.MovedCopiedEventType" /> class represents a moved or copied event notification.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MovedCopiedEventType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MovedCopiedEventType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MovedCopiedEventType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="5d1a4-102">O <see cref="T:ExchangeWebServices.MovedCopiedEventType" /> construtor inicializa uma nova instância do <see cref="T:ExchangeWebServices.MovedCopiedEventType" /> classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1a4-102">The <see cref="T:ExchangeWebServices.MovedCopiedEventType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.MovedCopiedEventType" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item1">
+      <MemberSignature Language="C#" Value="public object Item1 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item1" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MovedCopiedEventType.Item1" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item1 As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Item1 { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("OldItemId", typeof(ExchangeWebServices.ItemIdType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("OldFolderId", typeof(ExchangeWebServices.FolderIdType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5d1a4-103">O <see cref="P:ExchangeWebServices.MovedCopiedEventType.Item1" /> propriedade obtém o identificador de antigo para um item copiado/movido ou uma pasta.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1a4-103">The <see cref="P:ExchangeWebServices.MovedCopiedEventType.Item1" /> property gets the old identifier for a copied/moved item or folder.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5d1a4-104">O <see cref="P:ExchangeWebServices.MovedCopiedEventType.Item1" /> propriedade retorna um objeto representando um um <see cref="T:ExchangeWebServices.FolderIdType" /> ou um <see cref="T:ExchangeWebServices.ItemIdType" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1a4-104">The <see cref="P:ExchangeWebServices.MovedCopiedEventType.Item1" /> property returns an object that represents either a <see cref="T:ExchangeWebServices.FolderIdType" /> or an <see cref="T:ExchangeWebServices.ItemIdType" /> object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OldParentFolderId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FolderIdType OldParentFolderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FolderIdType OldParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MovedCopiedEventType.OldParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Property OldParentFolderId As FolderIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FolderIdType ^ OldParentFolderId { ExchangeWebServices::FolderIdType ^ get(); void set(ExchangeWebServices::FolderIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FolderIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5d1a4-105">O <see cref="P:ExchangeWebServices.MovedCopiedEventType.OldParentFolderId" /> propriedade obtém o identificador da pasta pai original de um item ou a pasta que foi movida.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1a4-105">The <see cref="P:ExchangeWebServices.MovedCopiedEventType.OldParentFolderId" /> property gets the identifier of the original parent folder of an item or folder that was moved.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5d1a4-106">A propriedade <see cref="P:ExchangeWebServices.MovedCopiedEventType.OldParentFolderId" /> retorna um objeto <see cref="T:ExchangeWebServices.FolderIdType" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5d1a4-106">The <see cref="P:ExchangeWebServices.MovedCopiedEventType.OldParentFolderId" /> property returns a <see cref="T:ExchangeWebServices.FolderIdType" /> object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

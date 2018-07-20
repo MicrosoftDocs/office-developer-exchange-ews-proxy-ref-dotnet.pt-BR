@@ -1,0 +1,210 @@
+<Type Name="DefaultShapeNamesType" FullName="ExchangeWebServices.DefaultShapeNamesType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f097d199d775568bbae3cc049b8b1c1fc0157ffb" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20601391" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DefaultShapeNamesType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed DefaultShapeNamesType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DefaultShapeNamesType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DefaultShapeNamesType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DefaultShapeNamesType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="32fc3-101">O <see cref="T:ExchangeWebServices.DefaultShapeNamesType" /> enumeração identifica os conjuntos de propriedades para retornar em uma resposta de item ou a pasta padrão.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="32fc3-101">The <see cref="T:ExchangeWebServices.DefaultShapeNamesType" /> enumeration identifies standard sets of properties to return in an item or folder response.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="32fc3-102">
+        <para>Esta enumeração é usada pelo <see cref="P:ExchangeWebServices.ItemResponseShapeType.BaseShape" /> propriedade do <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> objeto e o <see cref="P:ExchangeWebServices.FolderResponseShapeType.BaseShape" /> propriedade do <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> objeto.</para>
+        <para>As propriedades que são retornadas pelas formas AllProperties, padrão e IdOnly podem ser aumentadas pelas propriedades que são definidas pela propriedade AdditionalProperties no <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> e o <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> objetos.</para>
+        <para>a seguinte tabela lista as propriedades que são retornadas para cada pasta quando o <see cref="F:ExchangeWebServices.DefaultShapeNamesType.Default" /> propriedades são retornadas por uma resposta de pasta. Todas as subpastas de uma determinada pasta são retornadas em ordem pelo nome,.</para>
+        <para>Propriedades padrão</para>
+        <list type="table">
+          <item>Da 
+          <term>caixa de entrada</term><description>FolderId, exibir nome, contagem não lida, contagem total, contagem da subpasta</description></item>
+          <item>
+            <term>Contatos</term>
+            <description>FolderId, nome para exibição, contagem total, contagem da subpasta</description>
+          </item>
+          <item>
+            <term>calendário</term>
+            <description>FolderId , nome para exibição, contagem da subpasta</description>
+          </item>
+          <item>
+            <term>Rascunhos</term>
+            <description>FolderId, exibir nome, contagem não lida, contagem total, contagem da subpasta</description>
+          </item>
+          <item>
+            <term>Itens excluídos</term>
+            <description>FolderId, exibir o nome, a contagem não lida, a contagem total, a subpasta Contagem de</description>
+          </item>
+          <item>
+            <term>outras pastas</term>
+            <description>FolderId, exibir nome, contagem não lida, contagem total, contagem da subpasta</description>
+          </item>
+          <item>de
+          <term>caixa de saída</term><description>FolderId, exibir nome, contagem não lida, contagem total, contagem da subpasta</description></item>
+          <item>
+            <term>Tarefas</term>
+            <description>Id de pasta, o nome de exibição, passadas vencimento contagem, contagem total, contagem da subpasta</description>
+          </item>
+          <item>
+            <term>Anotações</term>
+            <description>FolderId, nome para exibição, contagem total, contagem da subpasta</description>
+          </item>
+        </list>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="32fc3-102">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.ItemResponseShapeType.BaseShape" /> property of the <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> object and the <see cref="P:ExchangeWebServices.FolderResponseShapeType.BaseShape" /> property of the <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> object.</para>
+          <para>The properties that are returned by the AllProperties, Default, and IdOnly shapes can be augmented by properties that are defined by the AdditionalProperties property on the <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> and the <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> objects.</para>
+          <para>The following table lists the properties that are returned for each folder when the <see cref="F:ExchangeWebServices.DefaultShapeNamesType.Default" /> properties are returned for a folder response. All subfolders of a given folder are returned in order by name.</para>
+          <para>Default properties</para>
+          <list type="table">
+            <item>
+              <term>Inbox</term>
+              <description>FolderId, display name, unread count, total count, subfolder count</description>
+            </item>
+            <item>
+              <term>Contacts</term>
+              <description>FolderId, display name, total count, subfolder count</description>
+            </item>
+            <item>
+              <term>Calendar</term>
+              <description>FolderId, display name, subfolder count</description>
+            </item>
+            <item>
+              <term>Drafts</term>
+              <description>FolderId, display name, unread count, total count, subfolder count</description>
+            </item>
+            <item>
+              <term>Deleted Items</term>
+              <description>FolderId, display name, unread count, total count, subfolder count</description>
+            </item>
+            <item>
+              <term>Other folders</term>
+              <description>FolderId, display name, unread count, total count, subfolder count</description>
+            </item>
+            <item>
+              <term>Outbox</term>
+              <description>FolderId, display name, unread count, total count, subfolder count</description>
+            </item>
+            <item>
+              <term>Tasks</term>
+              <description>Folder Id, display name, past due count, total count, subfolder count</description>
+            </item>
+            <item>
+              <term>Notes</term>
+              <description>FolderId, display name, total count, subfolder count</description>
+            </item>
+          </list>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllProperties">
+      <MemberSignature Language="C#" Value="AllProperties" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DefaultShapeNamesType AllProperties = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DefaultShapeNamesType.AllProperties" />
+      <MemberSignature Language="VB.NET" Value="AllProperties" />
+      <MemberSignature Language="C++ CLI" Value="AllProperties" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DefaultShapeNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="32fc3-103">Retorna todas as propriedades que são definidas para a forma AllProperties.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="32fc3-103">Returns all the properties that are defined for the AllProperties shape.</span>
+          </span>
+          <span data-ttu-id="32fc3-104">Essa opção não retorna todas as propriedades disponíveis para um item ou pasta.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="32fc3-104">This option does not return all available properties for an item or folder.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DefaultShapeNamesType Default = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DefaultShapeNamesType.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DefaultShapeNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="32fc3-105">Retorna um conjunto de propriedades que são definidas como padrão para o item ou a pasta.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="32fc3-105">Returns a set of properties that are defined as the default for the item or folder.</span>
+          </span>
+          <span data-ttu-id="32fc3-106">Consulte a tabela neste tópico para obter mais informações sobre as propriedades que são retornados para pastas.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="32fc3-106">See the table later in this topic for more information about the properties that are returned for folders.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IdOnly">
+      <MemberSignature Language="C#" Value="IdOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DefaultShapeNamesType IdOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DefaultShapeNamesType.IdOnly" />
+      <MemberSignature Language="VB.NET" Value="IdOnly" />
+      <MemberSignature Language="C++ CLI" Value="IdOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DefaultShapeNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="32fc3-107">Retorna apenas o ID de item ou uma pasta</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="32fc3-107">Returns only the item or folder ID.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

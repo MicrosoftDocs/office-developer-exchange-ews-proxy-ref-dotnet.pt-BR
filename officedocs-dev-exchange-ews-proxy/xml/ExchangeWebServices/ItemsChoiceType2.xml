@@ -1,0 +1,145 @@
+<Type Name="ItemsChoiceType2" FullName="ExchangeWebServices.ItemsChoiceType2">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9f31bd538a369417c4edd0a498d5a772a44ab30b" />
+    <Meta Name="ms.sourcegitcommit" Value="09f9993d313d1e3ec77e21f70573b3fced6eea2e" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20600496" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ItemsChoiceType2" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ItemsChoiceType2 extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ItemsChoiceType2" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ItemsChoiceType2" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ItemsChoiceType2" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(IncludeInSchema=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="79b29-101">O <see cref="T:ExchangeWebServices.ItemsChoiceType2" /> enumeração identifica os tipos de alteração para cada item em uma operação SyncFolderItems.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="79b29-101">The <see cref="T:ExchangeWebServices.ItemsChoiceType2" /> enumeration identifies the change types for each item in a SyncFolderItems operation.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="79b29-102">
+        <para>Esta enumeração é usada pelo <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.ItemsElementName" /> propriedade do <see cref="T:ExchangeWebServices.SyncFolderItemsChangesType" /> tipo.</para>
+        <para>Esta enumeração é usada em SyncFolderItems respostas. Use esta enumeração para determinar o tipo de alterações ocorridas em um item no servidor para que o cliente possa atualizar a versão local do item.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="79b29-102">
+          <para>This enumeration is used by the <see cref="P:ExchangeWebServices.SyncFolderItemsChangesType.ItemsElementName" /> property of the <see cref="T:ExchangeWebServices.SyncFolderItemsChangesType" /> type.</para>
+          <para>This enumeration is used in SyncFolderItems responses. Use this enumeration to determine the type of changes that have occurred on an item on the server so that the client can update the local version of the item.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="Create" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType2 Create = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType2.Create" />
+      <MemberSignature Language="VB.NET" Value="Create" />
+      <MemberSignature Language="C++ CLI" Value="Create" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType2</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="79b29-103">Identifica um único item para criar no repositório de cliente local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="79b29-103">Identifies a single item to create in the local client store.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="Delete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType2 Delete = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType2.Delete" />
+      <MemberSignature Language="VB.NET" Value="Delete" />
+      <MemberSignature Language="C++ CLI" Value="Delete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType2</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="79b29-104">Identifica um único item a ser excluído no repositório de cliente local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="79b29-104">Identifies a single item to delete in the local client store.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadFlagChange">
+      <MemberSignature Language="C#" Value="ReadFlagChange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType2 ReadFlagChange = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType2.ReadFlagChange" />
+      <MemberSignature Language="VB.NET" Value="ReadFlagChange" />
+      <MemberSignature Language="C++ CLI" Value="ReadFlagChange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType2</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="Update" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType2 Update = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType2.Update" />
+      <MemberSignature Language="VB.NET" Value="Update" />
+      <MemberSignature Language="C++ CLI" Value="Update" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType2</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="79b29-105">Identifica um único item a ser atualizado no repositório de cliente local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="79b29-105">Identifies a single item to update in the local client store.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
